@@ -1,6 +1,6 @@
 # Plan de publication — @trophytracker
 
-Checklist pour démarrer. Les visuels et légendes sont dans ce dossier : un sous-dossier par publication pour les 23 posts, `stories/` pour les 31 stories (voir `README.md` pour le détail technique). Horaires conseillés pour les posts : 12h15 ou 19h.
+Checklist pour démarrer. Les visuels et légendes sont dans ce dossier : un sous-dossier par publication pour les 25 posts, `stories/` pour les 31 stories (voir `README.md` pour le détail technique). Horaires conseillés pour les posts : 12h15 ou 19h.
 
 ## 0 · Avant le 1er octobre
 
@@ -60,6 +60,7 @@ Objectif de la phase : 100 abonnés réels, 3 premières pages créées. C'est l
 Objectif : chaque semaine plus de pages créées que la précédente.
 
 - [ ] **19/10** — Le démarchage passe à **15 messages privés par jour** (« Ensuite les inconnus, par les équipages » — messages privés, collaborations, repartages : c'est le vrai moteur de croissance à partir d'ici).
+- [ ] **19/10** — Post 25 · [Ta cagnotte sur ta page](11b_2026-10-19_post25_cagnotte-sur-ta-page/) — repartager en story le jour même ; à mentionner dans les DM aux équipages qui ont une cagnotte
 - [ ] **21/10** — Post 11 · [Ce que voient tes proches](12_2026-10-21_post11_ce-que-voient-tes-proches_A-COMPLETER/) ⚠ *à compléter — voir §6*
 - [ ] **23/10** — Post 16 · [FAQ](13_2026-10-23_post16_faq/) — à côté : boîte à questions en story (modèle : [quotidien-2_boite-a-questions](stories/formats-du-quotidien/), 1×/semaine — les réponses nourrissent la story FAQ)
 - [ ] **26/10** — Post 20 · [Équipage de la semaine n°1](14_2026-10-26_post20_equipage-de-la-semaine_A-COMPLETER/) ⚠ *SI un équipage est d'accord, en collaboration avec lui — sinon décaler*

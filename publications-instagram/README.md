@@ -1,6 +1,6 @@
 # Publications Instagram @trophytracker
 
-23 publications de Claude Design (+ le post 24, ajouté ensuite dans la même charte) (`Compte Instagram.dc.html`), rangées **dans l'ordre de publication** du `Plan marketing.dc.html`.
+23 publications de Claude Design (+ les posts 24 et 25, ajoutés ensuite dans la même charte) (`Compte Instagram.dc.html`), rangées **dans l'ordre de publication** du `Plan marketing.dc.html`.
 
 - Un dossier par publication : `ordre_date_postNN_sujet`. Le numéro `postNN` est celui de Claude Design.
 - Dans chaque dossier : les PNG en HD 2160 × 2700 (format portrait 4:5) et `legende.txt` (date, CTA, légende et hashtags à copier).
@@ -22,6 +22,7 @@
 | 09b | lundi 12 octobre 2026 | 24 | Paiement sécurisé par Stripe | 5 | Phase 1 · Allumer · ajouté après coup (même charte) · repartager en story le 23/11 |
 | 10 | mercredi 14 octobre 2026 | 12 | 5 phrases pour convaincre un sponsor | 7 | Phase 1 · Allumer · à partager en story 2 fois dans la semaine |
 | 11 | vendredi 16 octobre 2026 | 15 | Le bingo du trophyste | 1 | Phase 1 · Allumer · repartager chaque story qui te tague |
+| 11b | lundi 19 octobre 2026 | 25 | Ta cagnotte sur ta page | 5 | Phase 2 · Prouver · ajouté après coup (même charte) · nouvelle fonctionnalité déjà en ligne · repartager en story le jour même |
 | 12 | mercredi 21 octobre 2026 | 11 | Ce que voient tes proches pendant que tu roules | 6 | ⚠ Remplacer les 4 cadres en pointillés par des captures de la page équipage (carte classique). |
 | 13 | vendredi 23 octobre 2026 | 16 | FAQ : tu te demandes… | 6 | Phase 2 · Prouver · à côté : boîte à questions en story |
 | 14 | lundi 26 octobre 2026 | 20 | Équipage de la semaine | 3 | ⚠ Remplir nom, école, n° d'équipage, capture de leur page et leur citation. |
