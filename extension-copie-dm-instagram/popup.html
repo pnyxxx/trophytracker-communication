@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>TrophyTracker DM</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #fff; --fg: #111; --muted: #666; --accent: #0095f6; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1e1e1e; --fg: #f2f2f2; --muted: #aaa; } }
+    body { width: 300px; margin: 0; padding: 14px; background: var(--bg); color: var(--fg);
+      font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    h1 { font-size: 15px; margin: 0 0 6px; }
+    ol { margin: 0 0 12px; padding-left: 18px; color: var(--muted); }
+    button { width: 100%; border: 0; border-radius: 8px; padding: 9px; font-weight: 600; cursor: pointer; background: var(--accent); color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>TrophyTracker DM</h1>
+  <ol>
+    <li>Sur le profil ou une publication d'un équipage : « ✉️ Premier message ».</li>
+    <li>Dans une conversation : « 💬 TrophyTracker DM » → copier les messages ou générer une réponse.</li>
+    <li>Colle dans Claude, puis colle sa réponse dans Instagram.</li>
+  </ol>
+  <button id="options">Suivi et prompts</button>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrophyTracker DM — réglages</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #fafafa; --card: #fff; --fg: #111; --muted: #666; --border: #d0d0d0; --accent: #0095f6; --ok: #2e9d55; --best: #e8f6ee; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121212; --card: #1e1e1e; --fg: #f2f2f2; --muted: #aaa; --border: #3c3c3c; --ok: #4cd07d; --best: #17331f; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 860px; margin: 0 auto; padding: 24px 16px 80px; }
+    h1 { font-size: 20px; margin: 0 0 4px; }
+    p.lead { margin: 0 0 20px; color: var(--muted); }
+    nav { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    nav button { border: 1px solid var(--border); background: var(--card); color: inherit; border-radius: 999px; padding: 6px 14px; cursor: pointer; font: inherit; }
+    nav button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+    section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+    h2 { font-size: 15px; margin: 0 0 4px; }
+    .hint { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+    input[type=text], textarea { width: 100%; box-sizing: border-box; padding: 8px 10px; border: 1px solid var(--border);
+      border-radius: 8px; background: transparent; color: inherit; font: inherit; }
+    textarea { font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace; resize: vertical; height: 170px; }
+    #context { height: 420px; }
+    #firstPrompt { height: 300px; }
+    .reset { margin-top: 6px; background: none; border: 0; padding: 0; color: var(--muted); text-decoration: underline; cursor: pointer; font: inherit; font-size: 12px; }
+    .bar { position: sticky; bottom: 0; display: flex; gap: 12px; align-items: center; padding: 12px 0; background: var(--bg); }
+    .btn { background: var(--accent); color: #fff; border: 0; border-radius: 8px; padding: 10px 18px; font-weight: 600; font-size: 14px; cursor: pointer; }
+    .btn.light { background: transparent; color: inherit; border: 1px solid var(--border); padding: 7px 14px; font-size: 13px; }
+    #saved { color: var(--ok); font-weight: 600; }
+    code { font-size: 12px; }
+    [hidden] { display: none !important; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-bottom: 8px; }
+    .stat { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+    .stat.best { background: var(--best); border-color: var(--ok); }
+    .stat b { display: block; font-size: 13px; }
+    .stat .big { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .stat small { color: var(--muted); display: block; font-variant-numeric: tabular-nums; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    th { color: var(--muted); font-weight: 600; }
+    td.c, th.c { text-align: center; }
+    td a { color: var(--accent); text-decoration: none; }
+    .del { background: none; border: 0; color: var(--muted); cursor: pointer; font-size: 15px; }
+    .empty { color: var(--muted); padding: 12px 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TrophyTracker DM</h1>
+    <p class="lead">Sur instagram.com : sur le profil ou une publication d'un équipage, le bouton « ✉️ Premier message » prépare un prompt pour écrire ton premier message ;
+      dans une conversation, « 💬 TrophyTracker DM » copie les messages ou prépare un prompt pour répondre. Tu colles dans Claude, puis tu colles la réponse dans Instagram.</p>
+
+    <nav role="tablist">
+      <button role="tab" aria-selected="true" data-tab="suivi">Suivi des premiers messages</button>
+      <button role="tab" aria-selected="false" data-tab="prompts">Prompts</button>
+    </nav>
+
+    <div data-panel="suivi">
+      <section>
+        <h2>Tes chiffres</h2>
+        <p class="hint">Chaque premier message préparé est noté ici. Coche « A répondu » et « Page créée » au fur et à mesure.
+          Si moins de 20 % répondent, change la première phrase.</p>
+        <div class="stats" id="stats"></div>
+      </section>
+      <section>
+        <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap">
+          <h2 style="flex:1">Équipages contactés</h2>
+          <button class="btn light" id="export">Exporter en CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Date</th><th>Équipage</th><th class="c">A répondu</th><th class="c">Page créée</th><th></th></tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <div class="empty" id="empty">Aucun premier message pour l'instant.</div>
+      </section>
+    </div>
+
+    <div data-panel="prompts" hidden>
+      <section>
+        <h2>Ton nom dans la conversation copiée</h2>
+        <p class="hint">Comment tes propres messages sont signés (l'autre personne prend le nom affiché dans Instagram, modifiable dans le panneau).</p>
+        <input id="myName" type="text" placeholder="Moi">
+      </section>
+
+      <section>
+        <h2>Contexte du projet</h2>
+        <p class="hint">Placé en tête de chaque prompt : ce que l'IA doit savoir sur toi, TrophyTracker et la campagne. Mets-le à jour quand le prix, les fonctionnalités ou la campagne changent.</p>
+        <textarea id="context" spellcheck="false"></textarea>
+        <button class="reset" data-reset="context">Remettre le texte d'origine</button>
+      </section>
+
+      <section>
+        <h2>Consigne « Premier message »</h2>
+        <p class="hint">Placée après les infos sur l'équipage. Variables : <code>{compte}</code>, <code>{moi}</code>, <code>{date}</code>.</p>
+        <textarea id="firstPrompt" spellcheck="false"></textarea>
+        <button class="reset" data-reset="firstPrompt">Remettre le texte d'origine</button>
+      </section>
+
+      <section>
+        <h2>Consigne « Générer une réponse »</h2>
+        <p class="hint">Placée après la conversation. Variables : <code>{interlocuteur}</code>, <code>{moi}</code>, <code>{date}</code>.</p>
+        <textarea id="replyPrompt" spellcheck="false"></textarea>
+        <button class="reset" data-reset="replyPrompt">Remettre le texte d'origine</button>
+      </section>
+
+      <div class="bar"><button class="btn" id="save">Enregistrer</button><span id="saved"></span></div>
+    </div>
+  </main>
+  <script src="defaults.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

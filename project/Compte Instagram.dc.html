@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800;900&amp;family=Big+Shoulders+Display:wght@700;900&amp;family=Big+Shoulders+Stencil+Display:wght@800;900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0806;color:#F4ECDF;font-family:Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#F2B45A;text-decoration:none}a:hover{color:#D98A3D}
+</style>
+</helmet>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="car-d" viewBox="0 0 64 64"><g transform="translate(1 2.5) scale(0.93)">
+<path d="M5 51 H12 V24 Q12 21 15 21 H38 L46 29 H54 Q58 29 58 33" fill="none" stroke="#F2B45A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="20" cy="46" r="5.5" fill="#120F0C" stroke="#F4ECDF" stroke-width="3"></circle>
+<circle cx="47" cy="46" r="5.5" fill="#120F0C" stroke="#F4ECDF" stroke-width="3"></circle>
+<circle cx="5" cy="51" r="3" fill="#120F0C" stroke="#F4ECDF" stroke-width="2.5"></circle>
+<circle cx="58" cy="33" r="10" fill="none" stroke="#DB4740" stroke-width="2" opacity="0.45"></circle>
+<circle cx="58" cy="33" r="6" fill="#DB4740" stroke="#F4ECDF" stroke-width="2.8"></circle>
+</g></symbol>
+<symbol id="car-l" viewBox="0 0 64 64"><g transform="translate(1 2.5) scale(0.93)">
+<path d="M5 51 H12 V24 Q12 21 15 21 H38 L46 29 H54 Q58 29 58 33" fill="none" stroke="#1A1612" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="20" cy="46" r="5.5" fill="#F4ECDF" stroke="#1A1612" stroke-width="3"></circle>
+<circle cx="47" cy="46" r="5.5" fill="#F4ECDF" stroke="#1A1612" stroke-width="3"></circle>
+<circle cx="5" cy="51" r="3" fill="#F4ECDF" stroke="#1A1612" stroke-width="2.5"></circle>
+<circle cx="58" cy="33" r="10" fill="none" stroke="#DB4740" stroke-width="2" opacity="0.45"></circle>
+<circle cx="58" cy="33" r="6" fill="#DB4740" stroke="#FFF8EC" stroke-width="2.8"></circle>
+</g></symbol>
+</defs></svg>
+
+<main style="max-width:1080px;margin:0 auto;padding:56px 28px 96px;display:flex;flex-direction:column;gap:64px">
+
+<header data-screen-label="En-tête" style="display:flex;flex-direction:column;gap:12px">
+<div style="font-family:'JetBrains Mono';font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#D98A3D">Étape 2 · Le compte et les 9 premières publications</div>
+<h1 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:clamp(56px,8vw,96px);line-height:.9;text-transform:uppercase">@trophytracker</h1>
+<p style="margin:0;max-width:720px;font-size:17px;line-height:1.55;color:#C9BDAC;text-wrap:pretty">Nom d'utilisateur, bio, couvertures des stories à la une, grille de 9 publications et légendes complètes. Les emplacements <span style="font-family:'JetBrains Mono';font-size:14px;color:#F2B45A">[À REMPLIR]</span> attendent de vrais retours : rien n'est inventé.</p>
+</header>
+
+<section data-screen-label="Noms d'utilisateur" style="display:flex;flex-direction:column;gap:20px">
+<h2 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:44px;line-height:1;text-transform:uppercase">1. Nom d'utilisateur</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+<div style="background:#1B1713;border:1px solid #DB4740;padding:20px;display:flex;flex-direction:column;gap:8px">
+<span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#3DD68C">Retenu · disponible</span>
+<span style="font-family:'JetBrains Mono';font-weight:700;font-size:22px">@trophytracker</span>
+<span style="font-size:14px;line-height:1.5;color:#B3A796">Le nom exact du produit et du site. Le plus simple à taper, à taguer et à retenir.</span>
+</div>
+<div style="background:#1B1713;border:1px solid #2A221B;padding:20px;display:flex;flex-direction:column;gap:8px">
+<span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9E9282">Secours · à vérifier</span>
+<span style="font-family:'JetBrains Mono';font-weight:700;font-size:22px">@trophytracker.app</span>
+<span style="font-size:14px;line-height:1.5;color:#B3A796">À réserver pour éviter qu'un autre compte le prenne.</span>
+</div>
+<div style="background:#1B1713;border:1px solid #2A221B;padding:20px;display:flex;flex-direction:column;gap:8px">
+<span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9E9282">Secours · à vérifier</span>
+<span style="font-family:'JetBrains Mono';font-weight:700;font-size:22px">@trophytracker_fr</span>
+<span style="font-size:14px;line-height:1.5;color:#B3A796">Utile si un jour tu ouvres une version espagnole.</span>
+</div>
+</div>
+</section>
+
+<section data-screen-label="Profil et grille" style="display:flex;flex-direction:column;gap:24px">
+<h2 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:44px;line-height:1;text-transform:uppercase">2. Le profil</h2>
+<div style="background:#120F0C;border:1px solid #2A221B;padding:32px;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;gap:32px;align-items:center;flex-wrap:wrap">
+<div style="width:132px;height:132px;border-radius:50%;background:#120F0C;border:2px solid #3A322A;display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="88" height="88" viewBox="0 0 64 64"><use href="#car-d"></use></svg></div>
+<div style="display:flex;flex-direction:column;gap:10px;min-width:0;flex:1">
+<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+<span style="font-size:22px;font-weight:600">trophytracker</span>
+<span style="background:#DB4740;color:#fff;font-weight:600;font-size:14px;padding:7px 16px;border-radius:8px">Suivre</span>
+<span style="background:#2A221B;color:#F4ECDF;font-weight:600;font-size:14px;padding:7px 16px;border-radius:8px">Message</span>
+</div>
+<div style="display:flex;gap:24px;font-size:15px;color:#D9CDBD"><span><b style="color:#F4ECDF">6</b> publications au lancement</span><span><b style="color:#F4ECDF">0</b> abonnés</span></div>
+<div style="display:flex;flex-direction:column;gap:2px;font-size:15px;line-height:1.45">
+<b>TrophyTracker · Suivi en direct</b>
+<span>Ta 4L en direct, de la maison au désert.</span>
+<span>Par un trophyste, pour les trophystes.</span>
+<span>Early bird 15 € jusqu'au 30/11 ↓</span>
+<span style="color:#9E9282">Indépendant, non affilié à l'orga.</span>
+<a href="https://trophytracker.fr" style="color:#F2B45A;font-weight:600">trophytracker.fr</a>
+</div>
+</div>
+</div>
+<div style="display:flex;gap:22px;flex-wrap:wrap">
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:84px">
+<div style="width:76px;height:76px;border-radius:50%;background:#1B1713;border:2px solid #3A322A;display:flex;align-items:center;justify-content:center"><svg width="48" height="48" viewBox="0 0 64 64"><use href="#car-d"></use></svg></div>
+<span style="font-size:12px;text-align:center">L'histoire</span>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:84px">
+<div style="width:76px;height:76px;border-radius:50%;background:#1B1713;border:2px solid #3A322A;display:flex;align-items:center;justify-content:center;font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:26px;color:#DB4740;letter-spacing:.02em">1·2·3</div>
+<span style="font-size:12px;text-align:center">Comment ça marche</span>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:84px">
+<div style="width:76px;height:76px;border-radius:50%;background:#1B1713;border:2px solid #3A322A;display:flex;align-items:center;justify-content:center;font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:30px;color:#F2B45A">15€</div>
+<span style="font-size:12px;text-align:center">Tarifs</span>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:84px">
+<div style="width:76px;height:76px;border-radius:50%;background:#1B1713;border:2px solid #3A322A;display:flex;align-items:center;justify-content:center;font-family:'Big Shoulders Display';font-weight:900;font-size:48px;line-height:1;color:#F4ECDF;padding-top:14px;box-sizing:border-box">“</div>
+<span style="font-size:12px;text-align:center">Avis</span>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;width:84px">
+<div style="width:76px;height:76px;border-radius:50%;background:#1B1713;border:2px solid #3A322A;display:flex;align-items:center;justify-content:center;font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:26px;color:#3DD68C">FAQ</div>
+<span style="font-size:12px;text-align:center">FAQ</span>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;container-type:inline-size">
+
+<div id="p9" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#F2B45A;color:#1A1612;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.446cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#1A1612;color:#F2B45A;padding:0.31cqw 0.62cqw">9</span>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase">À toi de jouer</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:4.132cqw;line-height:.88;text-transform:uppercase">Ta page est prête ? Partage-la.</div>
+<div style="font-size:1.343cqw;line-height:1.4;font-weight:600">Story + tag @trophytracker = on repartage ton équipage.</div>
+<img src="assets/equipages.png" alt="Capture de la page Équipages" style="margin-top:auto;width:100%;height:38%;object-fit:cover;object-position:left top;border:0.31cqw solid #1A1612;box-sizing:border-box">
+</div>
+
+<div id="p8" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#120F0C;padding:0;box-sizing:border-box;display:flex;flex-direction:column">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#F2B45A;color:#1A1612;padding:0.31cqw 0.62cqw;z-index:1">8</span>
+<img src="assets/hero.png" alt="Capture de l'accueil" style="width:100%;height:45%;object-fit:cover;object-position:left center;display:block">
+<div style="padding:2.066cqw 2.273cqw;display:flex;flex-direction:column;gap:1.033cqw;flex:1">
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#D98A3D">Édition 2026 · Retour réel</div>
+<div style="border:0.155cqw dashed #F2B45A;padding:1.24cqw;font-family:'Big Shoulders Display';font-weight:900;font-size:2.686cqw;line-height:.95;text-transform:uppercase;color:#F4ECDF">« [Citation réelle à remplir] »</div>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.1em;color:#9E9282">[QUI ? ex. le papi d'un équipier, un sponsor]</div>
+</div>
+</div>
+
+<div id="p7" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#1B1713;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.24cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#F2B45A;color:#1A1612;padding:0.31cqw 0.62cqw">7</span>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#3DD68C">Bientôt · avant fin décembre</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:3.926cqw;line-height:.88;text-transform:uppercase">Bientôt dans ta page</div>
+<div style="display:flex;flex-direction:column;border-top:0.103cqw solid #3A322A;margin-top:0.413cqw">
+<div style="display:flex;gap:1.033cqw;padding:0.723cqw 0;border-bottom:0.103cqw solid #3A322A;font-size:1.343cqw"><span style="font-family:'JetBrains Mono';color:#DB4740">01</span>Notifications aux proches</div>
+<div style="display:flex;gap:1.033cqw;padding:0.723cqw 0;border-bottom:0.103cqw solid #3A322A;font-size:1.343cqw"><span style="font-family:'JetBrains Mono';color:#DB4740">02</span>Page famille + QR imprimable</div>
+<div style="display:flex;gap:1.033cqw;padding:0.723cqw 0;border-bottom:0.103cqw solid #3A322A;font-size:1.343cqw"><span style="font-family:'JetBrains Mono';color:#DB4740">03</span>Visuels de partage auto</div>
+<div style="display:flex;gap:1.033cqw;padding:0.723cqw 0;border-bottom:0.103cqw solid #3A322A;font-size:1.343cqw"><span style="font-family:'JetBrains Mono';color:#DB4740">04</span>Livre d'or des proches</div>
+<div style="display:flex;gap:1.033cqw;padding:0.723cqw 0;border-bottom:0.103cqw solid #3A322A;font-size:1.343cqw"><span style="font-family:'JetBrains Mono';color:#DB4740">05</span>Rejouer tout le raid</div>
+<div style="display:flex;gap:1.033cqw;padding:0.723cqw 0;border-bottom:0.103cqw solid #3A322A;font-size:1.343cqw"><span style="font-family:'JetBrains Mono';color:#DB4740">06</span>Export de ta trace</div>
+</div><div style="display:flex;align-items:center;gap:0.6cqw;margin-top:auto"><span style="flex:1;border-top:0.2cqw dashed #F2B45A"></span><svg viewBox="0 0 64 64" style="width:3.6cqw;height:3.6cqw"><use href="#car-d"></use></svg></div>
+</div>
+
+<div id="p6" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#120F0C;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:0.62cqw;justify-content:center">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#F2B45A;color:#1A1612;padding:0.31cqw 0.62cqw">6</span>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#D98A3D">Early bird · jusqu'au 30/11</div>
+<div style="display:flex;align-items:baseline;gap:1.24cqw">
+<span style="font-family:'Big Shoulders Display';font-weight:900;font-size:12.397cqw;line-height:.85;color:#F2B45A">15€</span>
+<span style="font-family:'JetBrains Mono';font-size:1.86cqw;color:#8C8176;text-decoration:line-through">19 €</span>
+</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:3.512cqw;line-height:.9;text-transform:uppercase">Moins cher que 2 menus sur l'aire d'autoroute.</div>
+<div style="font-size:1.24cqw;color:#B3A796;margin-top:0.826cqw">Par équipage, pour tout le raid. Suivre reste gratuit.</div><div style="display:flex;align-items:center;gap:0.6cqw;margin-top:auto"><span style="flex:1;border-top:0.2cqw dashed #F2B45A"></span><svg viewBox="0 0 64 64" style="width:3.6cqw;height:3.6cqw"><use href="#car-d"></use></svg></div>
+</div>
+
+<div id="p5" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#E9DCC8;color:#1A1612;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.24cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#1A1612;color:#F2B45A;padding:0.31cqw 0.62cqw">5</span>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:3.306cqw;line-height:.9;text-transform:uppercase">« On partagera notre position sur WhatsApp. »</div>
+<div style="display:grid;grid-template-columns:1.3fr 1fr 1fr;font-size:1.136cqw;border-top:0.207cqw solid #1A1612">
+<span style="padding:0.62cqw 0;font-family:'JetBrains Mono';font-size:0.93cqw;letter-spacing:.1em;text-transform:uppercase"></span><span style="padding:0.62cqw 0;font-family:'JetBrains Mono';font-size:0.93cqw;letter-spacing:.1em;text-transform:uppercase">Position</span><span style="padding:0.62cqw 0;font-family:'JetBrains Mono';font-size:0.93cqw;letter-spacing:.1em;text-transform:uppercase;color:#DB4740">TrophyTracker</span>
+<span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC">Trace complète</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono'">non</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono';font-weight:700;color:#DB4740">oui</span>
+<span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC">Photos et 360°</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono'">non</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono';font-weight:700;color:#DB4740">oui</span>
+<span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC">Logos sponsors</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono'">non</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono';font-weight:700;color:#DB4740">oui</span>
+<span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC">Qui peut voir</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono'">quelques contacts</span><span style="padding:0.62cqw 0;border-top:0.103cqw solid #C9BDAC;font-family:'JetBrains Mono';font-weight:700;color:#DB4740">qui a le lien</span>
+</div>
+<div style="margin-top:auto;font-family:'Big Shoulders Display';font-weight:900;font-size:2.273cqw;line-height:.95;text-transform:uppercase">Un point, ce n'est pas une aventure.</div>
+</div>
+
+<div id="p4" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#120F0C;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.24cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#F2B45A;color:#1A1612;padding:0.31cqw 0.62cqw">4</span>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#D98A3D">Pour les sponsors</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:3.512cqw;line-height:.88;text-transform:uppercase">Ton sponsor veut savoir où va son logo.</div>
+<div style="position:relative;flex:1;min-height:11.364cqw">
+<svg width="100%" height="100%" viewBox="0 0 280 120" preserveAspectRatio="none" style="position:absolute;inset:0"><path d="M10 100 C70 100 60 40 130 50 S220 20 270 14" fill="none" stroke="#F2B45A" stroke-width="3" stroke-dasharray="7 6"></path></svg>
+<span style="position:absolute;left:18%;top:52%;background:#fff;border:0.207cqw solid #DB4740;border-radius:0.62cqw;padding:0.413cqw 0.723cqw;font-family:'Big Shoulders Display';font-weight:800;font-size:1.24cqw;text-transform:uppercase;color:#1A1612">Ton logo</span>
+<span style="position:absolute;left:52%;top:18%;background:#fff;border:0.207cqw solid #DB4740;border-radius:0.62cqw;padding:0.413cqw 0.723cqw;font-family:'Big Shoulders Display';font-weight:800;font-size:1.24cqw;text-transform:uppercase;color:#1A1612">Garage X</span>
+<span style="position:absolute;right:0;top:-0.413cqw;width:1.446cqw;height:1.446cqw;border-radius:50%;background:#DB4740;border:0.31cqw solid #fff"></span>
+</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:2.686cqw;line-height:.9;text-transform:uppercase;color:#DB4740">Réponse : sur la carte.</div>
+</div>
+
+<div id="p3" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#DB4740;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.033cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#1A1612;color:#F2B45A;padding:0.31cqw 0.62cqw">3</span>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#1A1612">Ce que tu promets à la famille</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:4.132cqw;line-height:.9;text-transform:uppercase;color:#FFF8EC">« Je vous écris ce soir. »</div>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#1A1612;margin-top:1.033cqw">Ce qui se passe</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:4.132cqw;line-height:.9;text-transform:uppercase;color:#FFF8EC">3 jours sans réseau dans les dunes.</div>
+<div style="margin-top:auto;font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:2.273cqw;text-transform:uppercase;color:#1A1612">Envoie-lui plutôt un lien.</div>
+</div>
+
+<div id="p2" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#F4ECDF;color:#1A1612;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.446cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#1A1612;color:#F2B45A;padding:0.31cqw 0.62cqw">2</span>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:4.132cqw;line-height:.88;text-transform:uppercase">3 étapes. 0 boîtier.</div>
+<div style="display:flex;flex-direction:column;border-top:0.207cqw solid #1A1612">
+<div style="display:flex;align-items:center;gap:1.24cqw;padding:1.033cqw 0;border-bottom:0.103cqw solid #C9BDAC"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:4.132cqw;line-height:1;color:#DB4740;width:2.479cqw">1</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:2.066cqw;text-transform:uppercase">Tu crées ta page</span></div>
+<div style="display:flex;align-items:center;gap:1.24cqw;padding:1.033cqw 0;border-bottom:0.103cqw solid #C9BDAC"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:4.132cqw;line-height:1;color:#DB4740;width:2.479cqw">2</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:2.066cqw;text-transform:uppercase">Tu scannes le QR code</span></div>
+<div style="display:flex;align-items:center;gap:1.24cqw;padding:1.033cqw 0;border-bottom:0.103cqw solid #C9BDAC"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:4.132cqw;line-height:1;color:#DB4740;width:2.479cqw">3</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:2.066cqw;text-transform:uppercase">Tu partages le lien</span></div>
+</div>
+<div style="margin-top:auto;display:flex;align-items:center;gap:1cqw"><svg viewBox="0 0 64 64" style="width:4cqw;height:4cqw;flex-shrink:0"><use href="#car-l"></use></svg><span style="font-size:1.24cqw;line-height:1.4">Un téléphone dans la 4L + une appli GPS gratuite. C'est tout.</span></div>
+</div>
+
+<div id="p1" style="aspect-ratio:4/5;position:relative;overflow:hidden;background:#120F0C;padding:2.273cqw;box-sizing:border-box;display:flex;flex-direction:column;gap:1.24cqw">
+<span style="position:absolute;top:1.033cqw;right:1.033cqw;font-family:'JetBrains Mono';font-weight:700;font-size:1.136cqw;background:#F2B45A;color:#1A1612;padding:0.31cqw 0.62cqw">1</span>
+<div style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.16em;text-transform:uppercase;color:#D98A3D">Édition 2026 · km 0</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:4.545cqw;line-height:.88;text-transform:uppercase">On l'a développé pour notre 4L.</div>
+<div style="font-family:'Big Shoulders Display';font-weight:900;font-size:4.545cqw;line-height:.88;text-transform:uppercase;color:#DB4740">Maintenant, c'est pour la tienne.</div>
+<div style="margin-top:auto;display:flex;align-items:center;gap:1.033cqw">
+<svg width="40" height="40" viewBox="0 0 64 64"><use href="#car-d"></use></svg>
+<span style="font-family:'JetBrains Mono';font-size:1.033cqw;letter-spacing:.12em;text-transform:uppercase;color:#E9DCC8">Par un trophyste,<br>pour les trophystes</span>
+</div>
+</div>
+
+</div>
+<p style="margin:0;font-size:13px;color:#9E9282">La grille se lit comme sur Instagram : la plus récente (9) en haut à gauche, la première (1) en bas à droite. Visuels à exporter en 1080 × 1350.</p>
+</div>
+</section>
+
+<section data-screen-label="Légendes" style="display:flex;flex-direction:column;gap:24px">
+<h2 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:44px;line-height:1;text-transform:uppercase">3. Les 9 publications</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:16px">
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">1</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">L'histoire du créateur</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 6 visuels · Angle : créé par un équipage</div>
+<p style="margin:0;color:#B3A796;font-size:14px">Visuels : 1. titre (ci-dessus) · 2. « Février 2026. Une 4L, un site développé maison pour que nos proches nous suivent. » · 3. capture de l'accueil · 4. « Chaque soir, familles et sponsors suivaient la trace. » · 5. « Alors on a tout reconstruit. En mieux. Pour tous. » · 6. logo + « Early bird 15 € jusqu'au 30/11 ».</p>
+<p style="margin:0">En 2026, on est partis avec une 4L, beaucoup trop de scotch et un site que j'avais développé moi-même pour que nos proches nous suivent en direct.</p>
+<p style="margin:0">Il a tourné pendant tout le raid. Nos familles regardaient la trace avancer, nos sponsors voyaient leur logo sur la carte, et on a reçu plein de retours.</p>
+<p style="margin:0">Alors je l'ai reconstruit en entier, en mieux, et je l'ouvre à tous les équipages 2027. Ça s'appelle TrophyTracker. Par un trophyste, pour les trophystes.</p>
+<p style="margin:0">Crée la page de ton équipage, lien en bio. Early bird à 15 € jusqu'au 30 novembre.</p>
+<p style="margin:0;color:#9E9282;font-size:13px">Service indépendant, non affilié à l'organisation du raid.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · S'abonner + lien en bio</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#4LTrophy2027 #raid4L #trophyste #raidetudiant #4L #BiarritzMarrakech #projetetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">2</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Comment ça marche</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 4 visuels · Angle : simplicité</div>
+<p style="margin:0;color:#B3A796;font-size:14px">Visuels : 1. titre · 2 à 4. une étape par visuel, avec la capture « Comment ça marche » du site en fond.</p>
+<p style="margin:0">Pas de boîtier à acheter, pas d'appli pour tes proches.</p>
+<p style="margin:0">1. Tu crées la page de ton équipage : nom, numéro, photos, sponsors.<br>2. Tu installes une appli GPS gratuite sur un téléphone de la 4L et tu scannes le QR code. C'est configuré.<br>3. Tu partages le lien. Famille, potes et sponsors voient la 4L avancer sur la carte, sans compte.</p>
+<p style="margin:0">Pas de réseau dans les dunes ? Les positions sont gardées en mémoire et la trace se complète dès que la 4G revient.</p>
+<p style="margin:0">Enregistre ce post pour le jour où tu prépares la 4L.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Enregistrer</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#4LTrophy2027 #raid4L #trophyste #preparation4L #4L #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">3</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Humour : « je t'écris ce soir »</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · Angle : humour et culture 4L</div>
+<p style="margin:0">Tu connais la phrase. Tu l'as déjà dite. Tu vas la redire en février.</p>
+<p style="margin:0">Tague le coéquipier qui ne répondra à aucun message pendant 10 jours.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Taguer un coéquipier</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #4L #humourétudiant #4LTrophy2027 #viedequipage</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">4</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Les sponsors</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 3 visuels · Angle : valoriser les sponsors</div>
+<p style="margin:0;color:#B3A796;font-size:14px">Visuels : 1. titre · 2. « Leur logo sur ta page et sur la carte » · 3. « Un lien à glisser dans ton dossier sponsor ».</p>
+<p style="margin:0">Démarcher des sponsors, c'est promettre de la visibilité. Là, tu peux la montrer.</p>
+<p style="margin:0">Leur logo s'affiche sur la page de ton équipage et sur la carte. Et avant même le départ, tu glisses le lien de ta page dans ton dossier sponsor. Ça fait plus sérieux qu'un PDF avec un logo en bas de page.</p>
+<p style="margin:0">Envoie ce post à ton responsable sponsoring. On sait que vous en avez un.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager en message privé</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#sponsoring #dossiersponsor #raid4L #trophyste #4LTrophy2027 #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">5</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">L'objection WhatsApp / Maps</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · Angle : la différence</div>
+<p style="margin:0">« On partagera notre position sur WhatsApp. » Oui, mais c'est un point, pour quelques contacts, et c'est tout.</p>
+<p style="margin:0">Sur TrophyTracker : la trace complète depuis le départ, les kilomètres, les photos et les 360°, les logos de tes sponsors, et un simple lien que n'importe qui peut ouvrir, sans appli.</p>
+<p style="margin:0">L'un dit où vous êtes. L'autre raconte tout ce que vous avez fait.</p>
+<p style="margin:0">Envoie ça au coéquipier qui dit « on verra sur place ».</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #4L #4LTrophy2027 #raidetudiant #roadtrip</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">6</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Le prix, une évidence</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · Angle : early bird</div>
+<p style="margin:0">Une page TrophyTracker, c'est 19 €. Pour tout le raid, pour tout l'équipage.</p>
+<p style="margin:0">Jusqu'au 30 novembre, c'est 15 €. Moins cher que deux menus sur l'aire d'autoroute, et tes proches vivent chaque kilomètre en direct.</p>
+<p style="margin:0">Suivre un équipage reste gratuit pour tout le monde. Lien en bio, ta page est prête en quelques minutes.</p>
+<p style="margin:0;color:#9E9282;font-size:13px">Service indépendant, non affilié à l'organisation du raid.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Acheter (lien en bio)</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#earlybird #raid4L #trophyste #4LTrophy2027 #budget4L #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">7</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Les fonctionnalités à venir</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 7 visuels · Uniquement les 6 validées</div>
+<p style="margin:0">Ce qui arrive avant fin décembre dans ta page :</p>
+<p style="margin:0">Des notifications pour tes proches (« votre équipage a passé la frontière »).<br>Une page famille ultra simple, avec un QR code à imprimer pour les grands-parents.<br>Des visuels de partage générés automatiquement pour tes réseaux.<br>Un livre d'or pour les messages d'encouragement.<br>Rejouer tout le raid en animation après l'arrivée.<br>L'export de ta trace en souvenir.</p>
+<p style="margin:0">Et ce qui existe déjà : carte en direct, trace GPS, photos et 360°, sponsors sur la carte.</p>
+<p style="margin:0">Laquelle tu veux en premier ? Dis-le en commentaire.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Commenter</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #4LTrophy2027 #4L #raidetudiant #nouveautes</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">8</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Rester proches (vrai retour)</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · À publier seulement avec une vraie citation</div>
+<p style="margin:0">Pendant l'édition 2026, <span style="color:#F2B45A">[QUI ?]</span> suivait notre 4L tous les soirs. Son retour :</p>
+<p style="margin:0">« <span style="color:#F2B45A">[CITATION RÉELLE À REMPLIR]</span> »</p>
+<p style="margin:0">C'est pour ce genre de message qu'on a reconstruit TrophyTracker.</p>
+<p style="margin:0">Envoie ce post à la personne qui va le plus stresser pendant ton raid.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager à un proche</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #famille #4LTrophy2027 #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">9</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Le partage (levier viral)</b></div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · Angle : mettre les équipages en avant</div>
+<p style="margin:0">Ta page est créée ? Partage-la en story et tague @trophytracker.</p>
+<p style="margin:0">On repartage les équipages en story, et on épingle les pages les plus stylées dans nos stories à la une.</p>
+<p style="margin:0">Plus tes proches et tes sponsors ont le lien tôt, plus ils vivent la préparation avec toi.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager sa page en story</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #4LTrophy2027 #equipage #raidetudiant #4L</div>
+</article>
+
+</div>
+<p style="margin:0;font-size:13px;line-height:1.5;color:#9E9282;max-width:760px">Le nom « 4L Trophy » n'apparaît qu'en hashtag et en texte descriptif, jamais dans le logo, le nom du compte ni une publicité payante. Si tu fais un jour de la publicité payante, retire #4LTrophy2027.</p>
+</section>
+
+<section data-screen-label="Publications 10 à 18" style="display:flex;flex-direction:column;gap:24px">
+<h2 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:44px;line-height:1;text-transform:uppercase">3 bis. Publications 10 à 18</h2>
+<p style="margin:0;font-size:15px;color:#B3A796;max-width:760px">Surtout des carrousels : ce sont eux qu'on enregistre et qu'on partage le plus. Chaque visuel est montré dans l'ordre du swipe. Les cadres en pointillés sont à remplacer par tes captures de la page équipage (carte classique uniquement).</p>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">10</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">La checklist numérique du trophyste</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 6 · à enregistrer</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><svg width="80" height="80" viewBox="0 0 64 64" style="margin-bottom:auto"><use href="#car-d"></use></svg><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#D98A3D">À enregistrer</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:36px;line-height:.88;text-transform:uppercase">La checklist numérique du trophyste</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">01</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Un téléphone qui reste dans la 4L</span><span style="margin-top:auto;font-size:12px;line-height:1.4">Pas besoin du dernier modèle.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">02</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Un chargeur allume-cigare</span><span style="margin-top:auto;font-size:12px;line-height:1.4">Le GPS tourne tout le raid, la batterie doit suivre.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">03</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Une appli GPS gratuite</span><span style="margin-top:auto;font-size:12px;line-height:1.4">Tu scannes le QR code de ta page : c'est configuré.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">04</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Le lien envoyé à tes proches</span><span style="margin-top:auto;font-size:12px;line-height:1.4">Et à tes sponsors. Avant le départ, pas le jour J.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#DB4740;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase;color:#FFF8EC">Et ta page ?</span><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:22px;text-transform:uppercase;color:#1A1612">Lien en bio.</span></div>
+</div>
+<p style="margin:0">La 4L est prête, les bidons sont pleins. Et côté numérique, t'as quoi ?</p>
+<p style="margin:0">Un téléphone qui reste dans la voiture, un chargeur allume-cigare, une appli GPS gratuite et le lien de ta page envoyé à tout le monde avant le départ. C'est tout ce qu'il faut pour que tes proches suivent chaque kilomètre.</p>
+<p style="margin:0">Enregistre ce post et envoie-le à ton coéquipier.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Enregistrer + partager</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#preparation4L #raid4L #trophyste #4LTrophy2027 #checklist #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">11</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Ce que voient tes proches pendant que tu roules</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 6 · rester proches</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:36px;line-height:.88;text-transform:uppercase">Ce que voient tes proches pendant que tu roules</span><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.14em;color:#D98A3D">SWIPE →</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture : carte classique, point rouge en direct]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">La 4L avance. Sans recharger.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture : trace complète depuis le départ]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Toute la trace depuis Biarritz.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture : photos et vue 360°]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Les photos. Et les 360°.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture : kilomètres et vitesse]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Chaque kilomètre compté.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F2B45A;color:#1A1612;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:36px;line-height:.88;text-transform:uppercase">Envoie ce post à ta famille.</span><span style="font-size:12px;font-weight:600">Papi, mamie, parents, sponsors : tout le monde a sa place devant la carte.</span><div style="display:flex;align-items:center;gap:6px;margin-top:auto"><span style="flex:1;border-top:2px dashed #D98A3D"></span><svg width="34" height="34" viewBox="0 0 64 64"><use href="#car-l"></use></svg></div></div>
+</div>
+<p style="margin:0">Toi, tu roules. Papi a la carte ouverte sur la table de la cuisine, ton sponsor la regarde au bureau.</p>
+<p style="margin:0">Le point qui avance sans recharger, la trace depuis le départ, les photos du bivouac, les kilomètres. Sans appli, sans compte : un simple lien.</p>
+<p style="margin:0">Envoie ce post dans le groupe famille. Vraiment.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager à un proche</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #famille #4LTrophy2027 #raidetudiant #4L</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">12</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">5 phrases pour convaincre un sponsor</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 7 · valoriser les sponsors</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#E9DCC8;color:#1A1612;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><div style="display:flex;gap:6px;margin-bottom:auto"><span style="background:#fff;border:2px solid #DB4740;border-radius:6px;padding:3px 6px;font-family:'Big Shoulders Display';font-weight:800;font-size:11px;text-transform:uppercase">Ton logo</span><span style="background:#fff;border:2px solid #DB4740;border-radius:6px;padding:3px 6px;font-family:'Big Shoulders Display';font-weight:800;font-size:11px;text-transform:uppercase">Ici</span></div><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:80px;line-height:.85;color:#DB4740">5</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:32px;line-height:.88;text-transform:uppercase">phrases pour convaincre un sponsor</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:40px;line-height:1;color:#DB4740">1</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:22px;line-height:.95;text-transform:uppercase">« Votre logo sera sur notre page et sur la carte, du départ à l'arrivée. »</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:40px;line-height:1;color:#DB4740">2</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:22px;line-height:.95;text-transform:uppercase">« Vous suivrez en direct l'aventure que vous financez. »</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:40px;line-height:1;color:#DB4740">3</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:22px;line-height:.95;text-transform:uppercase">« Voici le lien de notre page. La place de votre logo est prête. »</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:40px;line-height:1;color:#DB4740">4</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:22px;line-height:.95;text-transform:uppercase">« On partagera ce lien à nos proches, notre école et nos réseaux. »</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:40px;line-height:1;color:#DB4740">5</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:22px;line-height:.95;text-transform:uppercase">« Après l'arrivée, toute l'aventure reste sur la page, avec votre logo. »</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F2B45A;color:#1A1612;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase">Enregistre. Copie. Envoie.</span></div>
+</div>
+<p style="margin:0">La chasse aux sponsors, c'est maintenant. Voilà 5 phrases à copier dans tes mails et ton dossier.</p>
+<p style="margin:0">Le secret : ne pas promettre de la visibilité, la montrer. Avec le lien de ta page TrophyTracker, le sponsor voit déjà où sera son logo.</p>
+<p style="margin:0">Enregistre ce carrousel et envoie-le à celui qui gère les sponsors dans ton équipage.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Enregistrer + partager</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#sponsoring #dossiersponsor #raid4L #trophyste #4LTrophy2027 #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">13</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Humour : les 3 états de ta mère</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 4 · chute au dernier swipe</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><svg width="80" height="80" viewBox="0 0 64 64" style="margin-bottom:auto"><use href="#car-d"></use></svg><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase">Les 3 états de ta mère <span style="color:#F2B45A">pendant le raid</span></span><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.14em;color:#D98A3D">SWIPE →</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:8px;justify-content:center"><span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.14em;color:#DB4740">JOUR 1</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:48px;line-height:.88;text-transform:uppercase">Fière.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#E9DCC8;color:#1A1612;display:flex;flex-direction:column;gap:8px;justify-content:center"><span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.14em;color:#DB4740">JOUR 3</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase">Aucune nouvelle. Aucune.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#DB4740;display:flex;flex-direction:column;gap:8px;justify-content:center"><span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.14em;color:#1A1612">JOUR 3, 21H</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase;color:#FFF8EC">Ouvre le lien. Voit la 4L. Appelle toute la famille.</span></div>
+</div>
+<p style="margin:0">Toutes les mères de trophystes passent par ces 3 étapes. Autant sauter directement à la troisième.</p>
+<p style="margin:0">Tague ton coéquipier dont la mère est déjà au jour 3.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Taguer</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #humour #mamandetrophyste #4LTrophy2027 #4L</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">14</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Dans 10 ans, tu te souviendras de quoi ?</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 5 · garder une trace</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><svg width="100%" height="96" viewBox="0 0 184 96" style="margin-bottom:auto"><path d="M4 88 C40 88 46 40 86 46 S132 30 146 26" fill="none" stroke="#F2B45A" stroke-width="3" stroke-dasharray="6 5"></path><circle cx="4" cy="88" r="4" fill="#120F0C" stroke="#F4ECDF" stroke-width="2.5"></circle><use href="#car-d" x="136" y="0" width="48" height="48"></use></svg><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:38px;line-height:.88;text-transform:uppercase">Dans 10 ans, tu te souviendras <span style="color:#F2B45A">de quoi ?</span></span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture : trace complète, vue d'ensemble]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Chaque kilomètre, de chez toi au désert.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture : galerie photos et 360°]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Le bivouac en 360°.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:32px;line-height:.9;text-transform:uppercase">Tout sur une seule page.</span><span style="font-size:12px;line-height:1.4">Bientôt : rejouer le raid en animation et exporter ta trace.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#DB4740;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:36px;line-height:.88;text-transform:uppercase;color:#FFF8EC">Ta trace commence ici.</span><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:20px;text-transform:uppercase;color:#1A1612">Lien en bio.</span></div>
+</div>
+<p style="margin:0">Les photos finissent perdues dans un téléphone. La trace, elle, reste.</p>
+<p style="margin:0">Sur ta page : chaque kilomètre depuis le départ, les photos, les 360° du bivouac, tout au même endroit et à partager. Et avant fin décembre, tu pourras rejouer tout le raid en animation et exporter ta trace en souvenir.</p>
+<p style="margin:0">Tague la personne avec qui tu vas faire ces 10 jours.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Taguer + lien en bio</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #souvenirs #4LTrophy2027 #roadtrip #raidetudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">15</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Le bingo du trophyste</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · humour à partager en story</span></div>
+<div style="width:300px;height:375px;box-sizing:border-box;padding:18px;background:#F2B45A;color:#1A1612;display:flex;flex-direction:column;gap:10px">
+<span style="font-family:'Big Shoulders Display';font-weight:900;font-size:34px;line-height:.9;text-transform:uppercase">Bingo du trophyste</span>
+<div style="flex:1;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);border:2px solid #1A1612">
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">Scotch sur le pare-chocs</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">Du sable partout</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">Coéquipier qui dort</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">0 réseau</span>
+<span style="border:1px solid #1A1612;background:#DB4740;color:#FFF8EC;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-family:'Big Shoulders Display';font-size:14px;font-weight:900;text-transform:uppercase;line-height:1">Papi suit la trace</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">400 photos de dunes</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">Crevaison</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">« C'est normal ce bruit ? »</span>
+<span style="border:1px solid #1A1612;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;font-size:11px;font-weight:700;line-height:1.2">Chanson en boucle</span>
+</div>
+<span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.1em">CAPTURE · COCHE · TAGUE @TROPHYTRACKER</span>
+</div>
+<p style="margin:0">Capture, coche ce que tu vas vivre (ou ce que tu as déjà vécu), partage en story et tague @trophytracker. On repartage les meilleurs.</p>
+<p style="margin:0">La case du milieu, on te l'offre avec ta page.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager en story + taguer</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #bingo #4L #4LTrophy2027 #humourétudiant</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">16</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">FAQ : tu te demandes…</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 6 · lever les freins</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:80px;line-height:.85;color:#3DD68C">FAQ</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:30px;line-height:.9;text-transform:uppercase">Tu te demandes…</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:12px"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Et sans réseau ?</span><span style="font-size:13px;line-height:1.45">Les positions sont gardées en mémoire. La trace se complète dès que la 4G revient.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:12px"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Mes proches doivent installer une appli ?</span><span style="font-size:13px;line-height:1.45">Non. Un simple lien, sans compte.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:12px"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Je veux rester discret.</span><span style="font-size:13px;line-height:1.45">Page publique ou privée, c'est toi qui choisis.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:12px"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">On gère la page à deux ?</span><span style="font-size:13px;line-height:1.45">Oui : plusieurs membres par équipage, invitations par email, double authentification.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#1A1612;display:flex;flex-direction:column;gap:12px;border:2px solid #DB4740"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">C'est lié à l'organisation ?</span><span style="font-size:13px;line-height:1.45;color:#E9DCC8">Non, on est indépendants. Et TrophyTracker ne sert jamais à s'orienter : le règlement d'abord.</span></div>
+</div>
+<p style="margin:0">Les questions qu'on nous pose le plus, en un carrousel.</p>
+<p style="margin:0">Une autre question ? Pose-la en commentaire, on répond à tout. Et retrouve la FAQ complète dans nos stories à la une.</p>
+<p style="margin:0;color:#9E9282;font-size:13px">Service indépendant, non affilié à l'organisation du raid. Ce n'est pas un outil de sécurité ni de navigation.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Commenter</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #4LTrophy2027 #FAQ #raidetudiant #4L</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">17</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">J-100</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · à publier le lundi 9 novembre</span></div>
+<div style="width:300px;height:375px;box-sizing:border-box;padding:20px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:center">
+<span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.16em;color:#D98A3D">COMPTE À REBOURS</span>
+<span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:96px;line-height:.85;color:#F2B45A;white-space:nowrap">J-100</span>
+<span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Ta page est prête ?</span>
+<span style="font-size:12px;color:#B3A796">Départ de Biarritz le 17 février.</span><div style="display:flex;align-items:center;gap:6px;margin-top:14px;font-family:'JetBrains Mono';font-size:9px;letter-spacing:.12em;color:#9E9282"><span>BIARRITZ</span><svg width="30" height="30" viewBox="0 0 64 64"><use href="#car-d"></use></svg><span style="flex:1;border-top:2px dashed #3A322A"></span><span>MARRAKECH</span></div>
+</div>
+<p style="margin:0">100 jours. Dans 100 jours, les 4L s'alignent à Biarritz.</p>
+<p style="margin:0">D'ici là : finir la méca, boucler le budget, convaincre les derniers sponsors. Et créer ta page pour que tout le monde vive l'aventure avec toi. Early bird à 15 € jusqu'au 30 novembre.</p>
+<p style="margin:0">Dis-nous en commentaire où en est ta 4L.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Commenter + lien en bio</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#J100 #raid4L #trophyste #4LTrophy2027 #compteàrebours #4L</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">18</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Proche d'un trophyste ?</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 5 · pour les prescripteurs</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><svg width="80" height="80" viewBox="0 0 64 64" style="margin-bottom:auto"><use href="#car-l"></use></svg><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:38px;line-height:.88;text-transform:uppercase">Proche d'un trophyste ? <span style="color:#DB4740">Lis ça.</span></span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#E9DCC8;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">1</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Demande-lui le lien de sa page.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#E9DCC8;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">2</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Ouvre-le.</span><span style="margin-top:auto;font-size:12px;line-height:1.4">Téléphone ou ordinateur. Pas d'appli, pas de compte.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#E9DCC8;color:#1A1612;display:flex;flex-direction:column;gap:8px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:64px;line-height:.9;color:#DB4740">3</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Regarde la 4L avancer.</span><span style="margin-top:auto;font-size:12px;line-height:1.4">Et respire.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:30px;line-height:.9;text-transform:uppercase">Il n'a pas encore de page ?</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:30px;line-height:.9;text-transform:uppercase;color:#F2B45A">Envoie-lui ce post.</span></div>
+</div>
+<p style="margin:0">Ton petit-fils, ta fille ou ton neveu part en 4L jusqu'à Marrakech ? Voilà comment le suivre sans attendre ses messages.</p>
+<p style="margin:0">Un lien, une carte, la 4L qui avance en direct, les photos du soir. Et bientôt, une page famille ultra simple avec un QR code à imprimer pour les grands-parents.</p>
+<p style="margin:0">S'il n'a pas encore créé sa page, envoie-lui ce post. Avant le 30 novembre, c'est 15 €.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager à son trophyste</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #grandsparents #famille #trophyste #4LTrophy2027 #raidetudiant</div>
+</article>
+
+</section>
+
+<section data-screen-label="Publications 19 à 23" style="display:flex;flex-direction:column;gap:24px">
+<h2 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:44px;line-height:1;text-transform:uppercase">3 ter. Publications 19 à 23</h2>
+<p style="margin:0;font-size:15px;color:#B3A796;max-width:760px">La présentation à épingler, et 4 formats récurrents qui prouvent que le compte est réel. L'ordre de publication est dans le <a href="Plan marketing.dc.html">Plan marketing</a>.</p>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">19</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">C'est quoi TrophyTracker ?</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 5 · présentation · à épingler</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><svg width="96" height="96" viewBox="0 0 64 64" style="margin-bottom:auto"><use href="#car-d"></use></svg><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:38px;line-height:.88;text-transform:uppercase">C'est quoi <span style="color:#F2B45A">TrophyTracker ?</span></span><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.14em;color:#D98A3D">EN 5 SWIPES →</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:10px"><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.14em;color:#DB4740">EN UNE PHRASE</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:28px;line-height:.9;text-transform:uppercase">Une page par équipage pour suivre ta 4L en direct.</span><div style="display:flex;align-items:center;gap:6px;margin-top:auto"><span style="flex:1;border-top:2px dashed #D98A3D"></span><span style="width:10px;height:10px;border-radius:50%;background:#DB4740;border:2px solid #fff"></span></div></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:44px;line-height:1;color:#DB4740">01</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Rester proches</span><span style="font-size:13px;line-height:1.45;color:#E9DCC8">Famille et amis vivent chaque kilomètre en direct, de la maison jusqu'au désert.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:44px;line-height:1;color:#DB4740">02</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Valoriser tes sponsors</span><span style="font-size:13px;line-height:1.45;color:#E9DCC8">Leur logo sur ta page et sur la carte. Un lien à glisser dans ton dossier sponsor.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><span style="font-family:'Big Shoulders Stencil Display';font-weight:900;font-size:44px;line-height:1;color:#DB4740">03</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Garder une trace</span><span style="font-size:13px;line-height:1.45;color:#E9DCC8">Trace GPS, photos et 360° sur une seule page, en souvenir.</span><span style="margin-top:auto;background:#F2B45A;color:#1A1612;padding:8px;font-family:'Big Shoulders Display';font-weight:900;font-size:18px;text-transform:uppercase;text-align:center">15 € jusqu'au 30/11</span></div>
+</div>
+<p style="margin:0">Nouveau ici ? TrophyTracker en 5 swipes.</p>
+<p style="margin:0">Une page pour ton équipage : la 4L avance en direct sur la carte, tes proches suivent via un simple lien, tes sponsors ont leur logo sur la carte, et toute l'aventure reste en souvenir. Il suffit d'un téléphone dans la voiture, pas de boîtier.</p>
+<p style="margin:0">Développé par un trophyste de l'édition 2026, pour les trophystes. 19 €, ou 15 € jusqu'au 30 novembre. Suivre un équipage est gratuit.</p>
+<p style="margin:0;color:#9E9282;font-size:13px">Service indépendant, non affilié à l'organisation du raid.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · S'abonner + lien en bio</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#4LTrophy2027 #raid4L #trophyste #raidetudiant #4L #BiarritzMarrakech</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">20</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Équipage de la semaine</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 3 · récurrent · en collaboration</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F2B45A;color:#1A1612;display:flex;flex-direction:column;gap:10px"><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.14em">ÉQUIPAGE DE LA SEMAINE · N°[X]</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase">[Nom de l'équipage]</span><span style="font-family:'JetBrains Mono';font-size:12px">[École · n° d'équipage]</span><div style="display:flex;align-items:center;gap:6px;margin-top:auto"><span style="flex:1;border-top:2px dashed #1A1612"></span><svg width="34" height="34" viewBox="0 0 64 64"><use href="#car-l"></use></svg></div></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:12px;background:#120F0C;display:flex;flex-direction:column;gap:10px"><div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture de leur page, carte classique]</div><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Leur page est prête.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'JetBrains Mono';font-size:10px;letter-spacing:.14em;color:#D98A3D">LEUR RÉPONSE</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:24px;line-height:.92;text-transform:uppercase">« [Pourquoi vous faites le raid ? en une phrase, leurs mots] »</span></div>
+</div>
+<p style="margin:0">Cette semaine, on part avec <span style="color:#F2B45A">[@équipage]</span> : <span style="color:#F2B45A">[école, 4L, un détail drôle qu'ils t'ont donné]</span>.</p>
+<p style="margin:0">Leur page est prête, leurs proches ont le lien. Allez les suivre et envoyez-leur de la force pour la prépa.</p>
+<p style="margin:0">Tu veux être le prochain équipage de la semaine ? Crée ta page et tague-nous en story.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Suivre l'équipage + taguer @trophytracker</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#equipagedelasemaine #raid4L #trophyste #4LTrophy2027 #4L</div>
+<p style="margin:0;font-size:13px;color:#9E9282">Toujours avec l'accord écrit de l'équipage, et publié en collaboration pour apparaître sur leur profil.</p>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">21</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Ils sont à bord</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Visuel unique · dès 5 équipages réels</span></div>
+<div style="width:300px;height:375px;box-sizing:border-box;padding:20px;background:#120F0C;display:flex;flex-direction:column;gap:10px">
+<span style="font-family:'JetBrains Mono';font-size:11px;letter-spacing:.16em;color:#D98A3D">ÉDITION 2027</span>
+<span style="font-family:'Big Shoulders Display';font-weight:900;font-size:40px;line-height:.88;text-transform:uppercase">Ils sont <span style="color:#F2B45A">à bord.</span></span>
+<div style="display:flex;flex-direction:column;border-top:1px solid #3A322A;margin-top:6px">
+<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #3A322A;font-size:13px"><span style="width:8px;height:8px;border-radius:50%;background:#3DD68C"></span>[@équipage 1]</div>
+<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #3A322A;font-size:13px"><span style="width:8px;height:8px;border-radius:50%;background:#3DD68C"></span>[@équipage 2]</div>
+<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #3A322A;font-size:13px"><span style="width:8px;height:8px;border-radius:50%;background:#3DD68C"></span>[@équipage 3]</div>
+<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #3A322A;font-size:13px"><span style="width:8px;height:8px;border-radius:50%;background:#3DD68C"></span>[@équipage 4]</div>
+<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #3A322A;font-size:13px"><span style="width:8px;height:8px;border-radius:50%;background:#3DD68C"></span>[@équipage 5]</div>
+</div>
+<span style="margin-top:auto;font-family:'Big Shoulders Display';font-weight:900;font-size:20px;line-height:.9;text-transform:uppercase">Et toi, tu montes quand ?</span>
+</div>
+<p style="margin:0">Les premiers équipages 2027 ont leur page. Bienvenue à <span style="color:#F2B45A">[tags des équipages]</span>.</p>
+<p style="margin:0">Leurs proches suivent déjà la prépa. Rendez-vous sur la carte le 17 février.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Lien en bio</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#raid4L #trophyste #4LTrophy2027 #equipage #4L</div>
+<p style="margin:0;font-size:13px;color:#9E9282">Uniquement des équipages réels qui ont accepté d'être cités. Mettre à jour le visuel quand la liste grandit.</p>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">22</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Au repas de Noël, montre ta page</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Carrousel 3 · famille réunie</span></div>
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:6px">
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#DB4740;display:flex;flex-direction:column;gap:10px;justify-content:flex-end"><svg width="80" height="80" viewBox="0 0 64 64" style="margin-bottom:auto"><use href="#car-d"></use></svg><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:36px;line-height:.88;text-transform:uppercase;color:#FFF8EC">Au repas de Noël, sors ton téléphone.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#F4ECDF;color:#1A1612;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase">Papi, mamie, tatie, le cousin, le parrain :</span><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:26px;line-height:.9;text-transform:uppercase;color:#DB4740">tout le monde est là.</span></div>
+<div style="width:216px;height:270px;flex-shrink:0;box-sizing:border-box;padding:16px;background:#120F0C;display:flex;flex-direction:column;gap:10px;justify-content:center"><span style="font-family:'Big Shoulders Display';font-weight:900;font-size:30px;line-height:.9;text-transform:uppercase">Montre la page. Envoie le lien dans le groupe.</span><span style="font-size:13px;color:#E9DCC8">En février, ils suivront la 4L depuis le canapé.</span></div>
+</div>
+<p style="margin:0">Le seul moment de l'année où toute la famille est autour de la même table.</p>
+<p style="margin:0">Montre la page de ton équipage, envoie le lien dans le groupe famille, et réponds une bonne fois pour toutes à « mais vous allez où exactement ? ».</p>
+<p style="margin:0">Pas encore de page ? Elle est prête en quelques minutes, lien en bio.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Partager dans le groupe famille</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#Noel #raid4L #trophyste #famille #4LTrophy2027</div>
+</article>
+
+<article style="background:#1B1713;border:1px solid #2A221B;padding:24px;display:flex;flex-direction:column;gap:14px;font-size:15px;line-height:1.55">
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'JetBrains Mono';font-weight:700;font-size:13px;background:#F2B45A;color:#1A1612;padding:3px 7px">23</span><b style="font-family:'Big Shoulders Display';font-size:26px;text-transform:uppercase">Nouveau : c'est en ligne</b><span style="font-family:'JetBrains Mono';font-size:12px;color:#D98A3D">Modèle · 1 par fonctionnalité, le jour de sa sortie</span></div>
+<div style="width:300px;height:375px;box-sizing:border-box;padding:20px;background:#120F0C;display:flex;flex-direction:column;gap:10px">
+<span style="align-self:flex-start;background:#3DD68C;color:#1A1612;font-family:'JetBrains Mono';font-weight:700;font-size:11px;letter-spacing:.14em;padding:4px 8px">NOUVEAU · EN LIGNE</span>
+<span style="font-family:'Big Shoulders Display';font-weight:900;font-size:38px;line-height:.88;text-transform:uppercase">[Nom de la fonctionnalité]</span>
+<div style="flex:1;border:1.5px dashed #F2B45A;display:flex;align-items:center;justify-content:center;padding:10px;text-align:center;font-family:'JetBrains Mono';font-size:10px;color:#E9DCC8">[Capture de la fonctionnalité réelle]</div>
+<span style="font-family:'Big Shoulders Display';font-weight:900;font-size:18px;line-height:.9;text-transform:uppercase;color:#F2B45A">Déjà dans ta page.</span>
+</div>
+<p style="margin:0">C'était promis, c'est en ligne : <span style="color:#F2B45A">[fonctionnalité]</span>.</p>
+<p style="margin:0"><span style="color:#F2B45A">[Une phrase : à quoi ça sert pour les proches ou les sponsors]</span>. Ça marche déjà sur toutes les pages, rien à faire de ton côté.</p>
+<p style="margin:0">Prochaine étape : <span style="color:#F2B45A">[fonctionnalité suivante validée]</span>.</p>
+<div style="font-size:14px"><b style="color:#3DD68C">CTA</b> · Tester sur ta page</div>
+<div style="font-family:'JetBrains Mono';font-size:12px;color:#F2B45A">#nouveaute #raid4L #trophyste #4LTrophy2027 #4L</div>
+<p style="margin:0;font-size:13px;color:#9E9282">Seulement pour les 6 fonctionnalités validées, et jamais avant leur mise en ligne réelle.</p>
+</article>
+
+</section>
+
+<section data-screen-label="Récolter de vrais avis" style="display:flex;flex-direction:column;gap:16px">
+<h2 style="margin:0;font-family:'Big Shoulders Display';font-weight:900;font-size:44px;line-height:1;text-transform:uppercase">4. Récolter de vrais avis en 24 h</h2>
+<p style="margin:0;font-size:15px;color:#B3A796;max-width:720px">À envoyer par SMS à tes proches et sponsors 2026. Colle leurs réponses dans la publication 8 et dans la story à la une « Avis ».</p>
+<div style="background:#F4ECDF;color:#1A1612;padding:24px;font-size:16px;line-height:1.55;max-width:720px">
+<p style="margin:0 0 10px">Salut ! Tu te souviens du site pour suivre notre 4L en février ? Je le relance pour tous les équipages 2027. Tu pourrais m'écrire en une ou deux phrases ce que ça t'a apporté de nous suivre dessus ?</p>
+<p style="margin:0">Je voudrais publier ta phrase sur Instagram avec « [ton lien avec moi] » comme signature, sans nom complet ni photo. Tu es d'accord ? Merci !</p>
+</div>
+</section>
+
+</main>
+</x-dc>
+</body>
+</html>

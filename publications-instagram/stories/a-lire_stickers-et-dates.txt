@@ -1,0 +1,82 @@
+STORIES @trophytracker · dessinées par Claude Design (Stories.dc.html)
+31 images, format PNG 2160 × 3840 (HD, ratio 9:16). Le texte laisse toujours libre le haut (profil)
+et le bas (champ de réponse) : rien à recadrer.
+
+Les stickers Instagram ne sont PAS dans les images : ils s'ajoutent dans l'appli pour rester
+cliquables/interactifs. Chaque story ci-dessous dit lequel poser, et où (l'emplacement est visible
+sur l'image : un bouton dessiné, un cadre en pointillés, un compteur...).
+
+════════════════════════════════════════════════════════════════
+a-la-une-histoire/  — 4 stories À LA UNE, permanentes (prêtes avant le 1er octobre)
+════════════════════════════════════════════════════════════════
+1. histoire-1-accroche          — rien à ajouter.
+2. histoire-2-preuve             — ⚠ remplacer le cadre pointillé par un enregistrement d'écran
+                                    de ta page équipage 2026 (carte classique).
+3. histoire-3-tournant           — rien à ajouter.
+4. histoire-4-lien-demo          — sticker LIEN vers ta page équipage 2026, posé sur le bouton
+                                    « NOTRE PAGE 2026 » déjà dessiné.
+
+════════════════════════════════════════════════════════════════
+a-la-une-comment-ca-marche/  — 4 stories À LA UNE, permanentes
+════════════════════════════════════════════════════════════════
+1 à 4 — rien à ajouter, prêtes telles quelles.
+
+════════════════════════════════════════════════════════════════
+a-la-une-tarifs-faq/  — 5 stories À LA UNE, permanentes
+════════════════════════════════════════════════════════════════
+tarifs-1            — rien à ajouter. ⚠ Le 1er décembre, le prix repasse à 19 € : il faudra
+                       remplacer cette image (dis-le-moi, je la regénère).
+tarifs-2-lien        — sticker LIEN vers la création de page, posé sur le bouton « CRÉER MA PAGE ».
+faq-1, faq-2         — rien à ajouter.
+faq-3-obligatoire    — rien à ajouter. À garder en permanence (le cadre rouge le distingue :
+                       c'est la clause « pas un outil de navigation/sécurité »).
+
+════════════════════════════════════════════════════════════════
+jour-douverture_2026-10-01/  — 4 stories, jeudi 1er octobre 2026
+════════════════════════════════════════════════════════════════
+1. ouverture-1_12h15-annonce            — 12h15 : l'annonce. Sticker LIEN vers trophytracker.fr, posé
+                                           sur le bouton « CRÉER MA PAGE » déjà dessiné.
+2. ouverture-2_12h20-repartage-post1    — 12h20 : sert d'habillage pour repartager le post 1
+                                           (poste ce visuel puis colle le post 1 dessus, ou publie
+                                           le repartage natif du post 1 avec ce cadre en fond).
+3. ouverture-3_14h-sondage              — 14h : sticker SONDAGE, 3 options : « Oui, inscrits »,
+                                           « Pas encore », « Je suis un proche ». Écris en message
+                                           privé à ceux qui répondent « Oui ».
+4. ouverture-4_19h-lien                 — 19h : sticker LIEN (15 € jusqu'au 30/11), posé sur le
+                                           bouton dessiné.
+
+════════════════════════════════════════════════════════════════
+offre-de-lancement/  — 8 stories, du lundi 23 au mardi 1er décembre 2026
+════════════════════════════════════════════════════════════════
+1. lancement-1_2026-11-23-lun_J-7                    — sticker COMPTE À REBOURS, fin le 30/11 à
+                                                        23h59. À poser dès cette story : les
+                                                        abonnés qui l'activent reçoivent un rappel.
+2. lancement-2_2026-11-25-mer_sondage                — sticker SONDAGE : « Oui, prêts » /
+                                                        « Pas encore ». Le lendemain : message privé
+                                                        à ceux qui répondent « Pas encore ».
+3. lancement-3_2026-11-27-ven_lien                   — sticker LIEN, posé sur « CRÉER MA PAGE ».
+4. lancement-4_2026-11-29-dim_quiz                   — sticker QUIZ, 2 options (bonne réponse : A,
+                                                        10 litres d'essence).
+5. lancement-5_2026-11-30-lun-9h                     — sticker LIEN, posé sur « CRÉER MA PAGE ».
+6. lancement-6_2026-11-30-lun-18h_preuve-sociale     — ⚠ remplacer le cadre pointillé : repartager
+                                                        la story d'un équipage qui a partagé sa page.
+7. lancement-7_2026-11-30-lun-23h                    — sticker LIEN, posé sur « CRÉER MA PAGE ».
+8. lancement-8_2026-12-01-mar_cest-ferme_A-COMPLETER — ⚠ remplacer « [X, chiffre réel] » par le
+                                                        vrai nombre d'équipages avant de publier.
+
+════════════════════════════════════════════════════════════════
+formats-du-quotidien/  — 6 modèles à réutiliser, pas de date fixe
+════════════════════════════════════════════════════════════════
+1. quotidien-1_curseur-4L-prete              — sticker CURSEUR : le logo sert de poignée
+                                                (« Ta 4L est prête à combien ? »).
+2. quotidien-2_boite-a-questions             — sticker BOÎTE À QUESTIONS, 1 fois par semaine.
+                                                Les réponses vont ensuite dans la story « FAQ ».
+3. quotidien-3_repartage-equipage_A-COMPLETER — ⚠ à chaque équipage qui tague @trophytracker en
+                                                partageant sa page : remplacer le cadre pointillé
+                                                par sa story repartagée, et [@équipage] par son nom.
+4. quotidien-4_coulisses_A-COMPLETER          — ⚠ à remplir avec une vraie photo d'écran (pas de
+                                                visage) et le nom de la fonctionnalité en cours.
+5. quotidien-5_astuce-sponsor                 — 1 fois par semaine, rien à ajouter.
+6. quotidien-6_compte-a-rebours-lundis-janvier — modèle « J-30 » : à décliner chaque lundi de
+                                                janvier (J-23, J-16, J-9...), même format que le
+                                                post 17 (J-100). Dis-moi les valeurs et je décline.
