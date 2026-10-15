@@ -11,7 +11,7 @@ Objectif : enregistrer
 1/5 · COUVERTURE
 Texte sur l'image :
 Titre : « Ils scannent. » / « Ils suivent. »
-Visuel : Photo : un autocollant QR carré sur la vitre arrière d'un véhicule tout-terrain poussiéreux (pas une 4L, pas de numéro d'équipage), ou sur un top-case de moto.
+Visuel : Photo : un autocollant QR carré sur la vitre arrière d'un véhicule tout-terrain poussiéreux (véhicule moderne, sans numéro ni logo), ou sur un top-case de moto.
 
 2/5 · ÉCRAN
 Texte sur l'image :
@@ -46,4 +46,4 @@ Bon à savoir : un QR code collé sur ta voiture donne accès à ta page à tous
 
 Tu postes ta story QR ? Tague @trophytracker.fr.
 
-#raid #rallye #moto #roadtrip #qrcode #trophytracker
+#raid #rallye #moto #roadtrip

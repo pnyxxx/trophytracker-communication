@@ -29,6 +29,8 @@ Le code de l'appli est ailleurs (pnyxxx/trophytracker). Tout s'écrit **en fran�
   étapes imposées, classement entre équipages, connexion Google. Chaque road trip a **sa propre page** et crée
   **ses propres étapes**.
 - **Ton** : tutoiement, chaleureux, direct. Phrases courtes. Pas de jargon marketing.
+- **Hashtags : 4 maximum par légende**, les plus utiles pour être trouvé (#roadtrip, #raid, #moto…).
+  Pas de #trophytracker sauf quand on demande aux gens de nous taguer (modèle « road trip de la semaine »).
 - **Nom** : « trophytracker » en minuscules dans les textes. Dans le logo : « TROPHYTRACKER » en capitales,
   « TROPHY » en crème et « TRACKER » en rouge.
 - **Ne rien inventer** : pas de chiffre d'utilisateurs, pas de faux avis ni de faux témoignages, pas de
@@ -110,5 +112,5 @@ grep -rniE "4l|trophyste|polarsteps|19 ?€|/ ?mois|early|marrakech|biarritz|rai
 grep -rn "Trophy" --exclude-dir=archive --exclude-dir=.git --exclude=CLAUDE.md . | grep -vi "trophytracker"
 ```
 
-Les seules occurrences acceptables : « jamais sur Google » (fonctionnalité de confidentialité) et « 4G »
-(réseau mobile).
+Seule occurrence acceptable : « jamais sur Google » (fonctionnalité de confidentialité). Dans `extension-copie-dm-instagram/defaults.js`,
+les mots interdits n'apparaissent que dans la liste des règles (« ne jamais dire… »), c'est voulu.
