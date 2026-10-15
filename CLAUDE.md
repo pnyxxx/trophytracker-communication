@@ -89,14 +89,18 @@ accessible uniquement par ton lien. »
 
 | Dossier | Contenu |
 |---|---|
-| `publications-instagram/` | Les publications actuelles : `posts/PNN_date_sujet/post.txt`, `stories/SNN_.../story.txt`, `plan-de-publication.md` (calendrier + checklist), `bio-et-a-la-une.md` |
+| `publications-instagram/` | Les publications actuelles : `posts/PNN_date_sujet/` (PNG + `post.txt`), `stories/SNN_.../` (PNG + `story.txt`), `plan-de-publication.md` (calendrier + checklist), `bio-et-a-la-une.md` |
+| `outils/generateur/` | **Source des textes** (fichiers `.py`) et générateur des `post.txt`, des PNG et des captures de la page d'exemple : voir son LISEZMOI |
 | `branding/` | `charte-visuelle.md` (couleurs, polices, gabarits) et `logo/` (SVG officiels) |
 | `extension-copie-dm-instagram/` | Extension Chrome pour les DM (contexte projet dans `defaults.js`, à tenir à jour) |
 | `archive/2026-10_avant-refonte/` | Tout l'ancien contenu (obsolète), avec `INVENTAIRE.md` qui dit ce qui est devenu faux |
 
 - Chaque `post.txt` contient : date, cible, fonctionnalité, format, contenu de chaque slide, description du visuel,
-  légende à copier, hashtags. Les PNG, quand ils existent, vont dans le même dossier
-  (`PNN_1-sur-N.png`, HD 2160 × 2700 ; stories 2160 × 3840, sans bandeau de l'interface Instagram).
+  légende à copier, hashtags. Les PNG sont dans le même dossier (`PNN_1-sur-N.png`, HD 2160 × 2700 ;
+  stories 2160 × 3840, sans bandeau de l'interface Instagram).
+- **Pour modifier un texte ou un visuel : passer par `outils/generateur/`** (les `.py` sont la source ; `post.txt` et
+  PNG sont générés et seraient écrasés). Visuels : vraies captures de la page d'exemple uniquement, jamais de fausse
+  capture d'écran de l'espace voyageur ou d'un e-mail.
 - `[À COMPLÉTER]` / `[À CONFIRMER]` = information réelle à fournir par Julien avant publication.
 - Après chaque modification : commit clair en français + `git push` (repo public pnyxxx/trophytracker-communication).
 - Après chaque image créée ou modifiée dans `publications-instagram/` : synchroniser vers iCloud

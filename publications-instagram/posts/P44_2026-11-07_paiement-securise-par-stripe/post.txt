@@ -1,0 +1,44 @@
+P44 · ON NE VOIT JAMAIS TA CARTE BANCAIRE
+
+Date     : samedi 7 novembre 2026 · 12h15
+Cible    : toutes les cibles
+Sujet    : paiement par carte géré par Stripe, une seule fois
+Format   : carrousel 4 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
+Objectif : lien en bio
+Remarque : Remplace l'ancien post 24 (paiement Stripe). Paiement confirmé par Julien : carte bancaire via la page de paiement Stripe.
+
+━━━━━━━━ VISUELS ━━━━━━━━
+
+1/4 · COUVERTURE
+Texte sur l'image :
+Titre : « On ne voit jamais » / « ta carte bancaire. »
+Visuel : Gabarit TEXTE : une carte bancaire stylisée (numéros masqués « •••• »), cadenas papier.
+
+2/4 · TEXTE
+Texte sur l'image :
+« Tu paies sur la page de Stripe. »
+« Ton numéro de carte est saisi chez eux, jamais sur nos serveurs. »
+Visuel : Gabarit TEXTE, sans logo Stripe redessiné (texte simple « Stripe »).
+
+3/4 · TEXTE
+Texte sur l'image :
+« Ta banque garde la main. »
+« Elle peut te demander de valider le paiement dans son appli. »
+Visuel : Gabarit TEXTE, icône de téléphone avec une coche verte.
+
+4/4 · DERNIÈRE SLIDE
+Texte sur l'image :
+« 15 €, une fois. Et c'est tout. »
+Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en haut à droite, logo TROPHYTRACKER centré en haut, la phrase en Bricolage Grotesque, puis « trophytracker.fr · lien en bio » en DM Mono et la pastille « 15 € par road trip · sans abonnement ».
+
+━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
+
+On ne voit jamais ta carte bancaire. 🔒
+
+Le paiement de ton road trip passe par Stripe, l'un des grands noms du paiement en ligne. Tu tapes ta carte sur leur page : ton numéro ne passe jamais par nos serveurs. De notre côté, on reçoit une seule info : ton road trip est payé.
+
+15 € par road trip, une seule fois. Pas d'abonnement, rien qui se renouvelle tout seul.
+
+Une question sur le paiement ? Écris-nous, on répond à tout. Lien en bio.
+
+#roadtrip #paiementsecurise #voyage #roadtripfrance

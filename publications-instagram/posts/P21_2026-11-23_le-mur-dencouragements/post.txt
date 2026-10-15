@@ -5,7 +5,7 @@ Cible    : proches, raid / rallye
 Sujet    : mur d'encouragements sans compte
 Format   : carrousel 5 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
 Objectif : partager à un proche
-Remarque : Les messages de la slide 3 sont des EXEMPLES : les marquer « exemple » sur le visuel, ou les remplacer par une capture du mur de la page d'exemple.
+Remarque : Les messages de la slide 3 viennent du mur d'encouragements de la page d'exemple (personnages fictifs).
 
 ━━━━━━━━ VISUELS ━━━━━━━━
 
@@ -22,11 +22,10 @@ Visuel : Gabarit TEXTE.
 
 3/5 · TEXTE
 Texte sur l'image :
-Pastille : « exemple »
-Trois messages :
-« Allez, on suit tout depuis le salon ! — Mamie »
-« La photo du col 😍 — Thomas »
-« Courage pour la piste demain ! — tes voisins »
+Pastille : « road trip d'exemple »
+« Couvrez-vous bien en haut de l'Iseran, il paraît qu'il gèle ! — Mamie Jo »
+« Belle trace ! On vous suit tous les soirs avec le résumé. — Papa »
+« Rapportez-moi un magnet du Galibier. — Inès »
 Visuel : Trois cartes de message empilées (fond papier, texte encre), comme un mur d'encouragements.
 
 4/5 · TEXTE

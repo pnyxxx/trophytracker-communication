@@ -5,7 +5,7 @@ Cible    : raid / rallye, road trip
 Sujet    : guide « Prêt au départ » + check-list + bouton « Je pars »
 Format   : carrousel 7 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
 Objectif : enregistrer
-Remarque : Remplace l'ancien post 10 (checklist numérique). [À COMPLÉTER : les 8 étapes réelles du guide, je ne les connais pas.]
+Remarque : Remplace l'ancien post 10 (checklist numérique). Les 8 étapes sont celles du guide de l'espace voyageur.
 
 ━━━━━━━━ VISUELS ━━━━━━━━
 
@@ -16,26 +16,34 @@ Visuel : Capture C17 : le bouton « Je pars » en grand.
 
 2/7 · TEXTE
 Texte sur l'image :
-« Étapes 1 et 2 »
-[À COMPLÉTER]
+« 1. Ton voyage »
+« Le nom, les dates, la photo de couverture, qui peut voir la page. »
+« 2. Ton équipage »
+« Invite tes compagnons de route : chacun peut publier des photos et écrire dans le journal. »
 Visuel : Gabarit TEXTE, numéros rouges, cases à cocher.
 
 3/7 · TEXTE
 Texte sur l'image :
-« Étapes 3 et 4 »
-[À COMPLÉTER]
+« 3. Ton véhicule »
+« Le téléphone qui reste à bord, son support, son alimentation (allume-cigare ou batterie externe). »
+« 4. Ton itinéraire »
+« Départ, étapes ou fichier GPX, arrivée. Facultatif : la trace s'écrit en roulant. »
 Visuel : Idem.
 
 4/7 · TEXTE
 Texte sur l'image :
-« Étapes 5 et 6 »
-[À COMPLÉTER]
+« 5. Le suivi GPS »
+« L'appli gratuite, réglée d'un coup avec le QR code. Tu testes le signal. »
+« 6. Le partage »
+« Tu envoies le lien, tu préviens les grands-parents, tu imprimes l'autocollant QR. »
 Visuel : Idem.
 
 5/7 · TEXTE
 Texte sur l'image :
-« Étapes 7 et 8 »
-[À COMPLÉTER]
+« 7. Sponsors et cagnotte »
+« Les logos de ceux qui te soutiennent, le lien de ta cagnotte. Facultatif. »
+« 8. La check-list du départ »
+« Batterie externe chargée, signal testé, lien envoyé, plein fait. »
 Visuel : Idem.
 
 6/7 · ÉCRAN
@@ -55,7 +63,7 @@ La veille du départ, tu as mille choses en tête. Ta page, elle, t'accompagne.
 
 Dans ton espace trophytracker, le guide « Prêt au départ » te fait tout vérifier en 8 étapes, et la check-list se termine par un bouton : « Je pars ». Au départ, tes proches reçoivent l'e-mail « C'est parti ».
 
-[À COMPLÉTER : une phrase sur 2 ou 3 étapes clés du guide]
+Ton voyage, ton équipage, ton véhicule, ton itinéraire, le suivi GPS, le partage du lien, tes sponsors et ta cagnotte, et enfin la check-list : batterie externe chargée, signal testé, lien envoyé, plein fait.
 
 Enregistre ce post et ressors-le la veille du départ. Lien en bio.
 

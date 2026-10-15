@@ -5,7 +5,7 @@ Cible    : raid / rallye, sponsors
 Sujet    : statistiques de visibilité + rapport PDF de fin de voyage
 Format   : carrousel 6 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
 Objectif : enregistrer + partager à son équipage
-Remarque : Remplace l'ancien post 4 (sponsors). [À CONFIRMER : quelles statistiques exactement dans le rapport, pour pouvoir les citer.]
+Remarque : Remplace l'ancien post 4 (sponsors). Contenu du rapport relevé dans le code de l'appli (page « rapport de voyage », à imprimer ou enregistrer en PDF).
 
 ━━━━━━━━ VISUELS ━━━━━━━━
 
@@ -20,11 +20,12 @@ Texte sur l'image :
 « Son logo sur la même page que la carte en direct. »
 Visuel : Capture C18.
 
-3/6 · ÉCRAN
+3/6 · TEXTE
 Texte sur l'image :
-« Les statistiques de visibilité de ta page. »
-[À COMPLÉTER : exemples de statistiques réelles affichées]
-Visuel : Capture des statistiques dans l'espace voyageur.
+« Ce qu'il y a dans le rapport. »
+« le voyage : distance · jours sur la route · altitude max · dénivelé + · étapes · photos »
+« la visibilité : visites de la page · proches abonnés · encouragements · visites des 30 derniers jours »
+Visuel : Gabarit TEXTE, deux blocs de petites étiquettes (sans chiffres inventés : juste les intitulés).
 
 4/6 · ÉCRAN
 Texte sur l'image :
@@ -47,7 +48,7 @@ Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en
 
 Démarcher un sponsor, c'est promettre de la visibilité. Après l'arrivée, il faut la prouver.
 
-Avec trophytracker, tes sponsors ont leur vitrine sur la même page que la carte en direct, pendant tout le voyage. Ton espace te donne les statistiques de visibilité de ta page. Et à la fin, tu leur envoies un rapport PDF, prêt à transmettre.
+Avec trophytracker, tes sponsors ont leur vitrine sur la même page que la carte en direct, pendant tout le voyage. Et à la fin, tu leur envoies un rapport PDF : ta trace sur une vue satellite, les kilomètres, les jours sur la route, l'altitude max, le dénivelé, les étapes, les photos. Et surtout la visibilité : les visites de ta page, le nombre de proches abonnés, les encouragements reçus.
 
 Un vrai bilan, c'est ce qui fait la différence quand tu reviens frapper à la même porte l'année suivante.
 

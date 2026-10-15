@@ -1,6 +1,6 @@
 # Profil Instagram : bio, liens et stories à la une
 
-Compte : **@trophytracker.fr** [À CONFIRMER : c'est bien le nom actuel du compte ? Les anciens documents disaient @trophytracker]
+Compte : **@trophytracker.fr**
 Catégorie : « Service en ligne ».
 
 ## Nom (champ « Nom », il compte pour la recherche)
@@ -24,6 +24,9 @@ Page privée, accessible par ton lien.
 2. `https://trophytracker.fr/road-trip/exemple` (titre : « Voir un exemple en direct »)
 
 ## Stories à la une, dans cet ordre
+
+Les images de chaque story sont dans son dossier. Les couvertures se choisissent dans Instagram (une image de la story,
+ou une image unie à faire) :
 
 | Ordre | Titre affiché | Story | Couverture (image ronde, fond uni) |
 |---|---|---|---|

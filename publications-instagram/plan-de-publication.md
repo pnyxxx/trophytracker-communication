@@ -1,13 +1,14 @@
 # Plan de publication Instagram : trophytracker (après la refonte)
 
-Du **vendredi 16 octobre 2026 au lundi 11 janvier 2027** : 39 posts datés, 14 séquences de stories datées, des stories
-du quotidien tous les jours, et 4 modèles de posts à sortir quand l'occasion se présente.
-Chaque post a son dossier dans `posts/` (fichier `post.txt` : visuels slide par slide, légende, hashtags) et chaque
-story dans `stories/` (fichier `story.txt` : écrans, texte, stickers, visuel). Les règles sont dans le `CLAUDE.md` du repo.
+Du **jeudi 15 octobre 2026 (ce soir) au lundi 11 janvier 2027** : 40 posts datés, 14 séquences de stories datées, des stories
+du quotidien tous les jours, et 4 posts sans date (P43 prêt, P40 à P42 à sortir quand l'occasion se présente).
+Chaque post a son dossier dans `posts/` : **les images prêtes à poster** (PNG 2160 × 2700) et `post.txt` (texte de chaque slide,
+légende à copier, hashtags). Chaque story a son dossier dans `stories/` : les images (PNG 2160 × 3840) et `story.txt`
+(stickers à ajouter dans Instagram, horaires). Les règles sont dans le `CLAUDE.md` du repo.
 
 Horaires : **12h15** ou **19h**. Rythme : 3 posts par semaine (lundi, mercredi, vendredi), au moins une story par jour.
 
-## 0 · Remise à zéro du compte (vendredi 16 → samedi 17 octobre, avant le premier post)
+## 0 · Remise à zéro du compte (ce soir, jeudi 15 octobre, avant le premier post)
 
 - [ ] **Archiver** (pas supprimer) tous les anciens posts publiés depuis le 28/09 : sur chaque post, « ⋯ » › **Archiver**.
   Ils disparaissent du profil mais restent récupérables dans ton archive. Tous parlent de l'ancien produit.
@@ -18,36 +19,37 @@ Horaires : **12h15** ou **19h**. Rythme : 3 posts par semaine (lundi, mercredi, 
 - [ ] Photo de profil : garder l'avatar actuel (`branding/logo/avatar-instagram.svg`), c'est le logo du site.
 - [ ] **Messages privés** : ne plus prospecter via les hashtags d'un événement précis. Mettre à jour les réglages de
   l'extension DM : réglages › Prompts › « Remettre le texte d'origine » (le nouveau contexte est dans `defaults.js`).
-- [ ] Faire les **captures** listées plus bas (au moins C1 à C7 avant le 17/10).
-- [ ] Préparer les 7 **stories à la une** (S01 à S07) pour le 18/10 au soir.
+- [ ] Mettre en place les 7 **stories à la une** (S01 à S07, images prêtes) d'ici samedi 17/10.
 
 > On ne raconte jamais pourquoi le compte change. Le compte se présente simplement comme il est aujourd'hui :
 > « Ton road trip, en direct. »
 
-## 1 · La nouvelle grille de départ (17 → 19 octobre)
+## 1 · La nouvelle grille de départ (15 → 17 octobre)
 
-6 posts en 3 jours, pour que le profil soit complet dès le lundi. Instagram affiche les plus récents en haut :
+6 posts en 3 jours (ce soir, vendredi, samedi), pour que le profil soit complet dès le week-end. Instagram affiche les plus récents en haut :
 les 3 posts à épingler sont publiés en dernier.
 
-Après le post P06 du lundi 19/10 à 19h : **épingler P06 (c'est quoi), P05 (comment ça marche), P04 (c'est combien)**.
+Après le post P06 du samedi 17/10 à 19h : **épingler P06 (c'est quoi), P05 (comment ça marche), P04 (c'est combien)**.
 
 ## 2 · Calendrier des posts et des stories datées
+
+Chaque dossier contient les images prêtes à poster (`PNN_1-sur-N.png`…, à importer dans l'ordre) et `post.txt` (légende à copier).
 
 ### Semaine du 12/10 au 18/10
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | sam. 17/10 | 12h15 | [P01 · Pas de réseau ? C'est normal.](posts/P01_2026-10-17_pas-de-reseau-cest-normal/post.txt) | raid / rallye, road trip en montagne | repartage du post (S27) |
-| [ ] | sam. 17/10 | 19h | [P02 · Le soir, tu racontes. L'IA écrit.](posts/P02_2026-10-17_le-soir-tu-racontes-lia-ecrit/post.txt) | road trip en voiture (et toutes les cibles) | repartage du post (S27) |
-| [ ] | dim. 18/10 | 12h15 | [P03 · Ta page. Ton lien. Personne d'autre.](posts/P03_2026-10-18_ta-page-ton-lien-personne-dautre/post.txt) | tout le monde (road trip, proches) | repartage du post (S27) |
-| [ ] | dim. 18/10 | 19h | [P04 · 15 €. Une fois. Pas d'abonnement.](posts/P04_2026-10-18_15-euros-une-fois-sans-abonnement/post.txt) | toutes les cibles | repartage du post (S27) |
+| [ ] | jeu. 15/10 | 20h | [P01 · Pas de réseau ? C'est normal.](posts/P01_2026-10-15_pas-de-reseau-cest-normal/post.txt) | raid / rallye, road trip en montagne | repartage du post (S27) |
+| [ ] | jeu. 15/10 | 21h30 | [P02 · Le soir, tu racontes. L'IA écrit.](posts/P02_2026-10-15_le-soir-tu-racontes-lia-ecrit/post.txt) | road trip en voiture (et toutes les cibles) | repartage du post (S27) |
+| [ ] | ven. 16/10 | 12h15 | [P03 · Ta page. Ton lien. Personne d'autre.](posts/P03_2026-10-16_ta-page-ton-lien-personne-dautre/post.txt) | tout le monde (road trip, proches) | repartage du post (S27) |
+| [ ] | ven. 16/10 | 19h | [P04 · 15 €. Une fois. Pas d'abonnement.](posts/P04_2026-10-16_15-euros-une-fois-sans-abonnement/post.txt) | toutes les cibles | repartage du post (S27) |
+| [ ] | sam. 17/10 | 12h15 | [P05 · Prêt en 5 minutes. Zéro prise de tête.](posts/P05_2026-10-17_pret-en-5-minutes/post.txt) | road trip en voiture, moto, raid (toutes cibles) | [S08 · Relance du compte : « Ton road trip, en direct. »](stories/S08_2026-10-17_relance-du-compte/story.txt) |
+| [ ] | sam. 17/10 | 19h | [P06 · Ton road trip, en direct. (c'est quoi trophytracker ?)](posts/P06_2026-10-17_ton-road-trip-en-direct/post.txt) | toutes les cibles | [S08 · Relance du compte : « Ton road trip, en direct. »](stories/S08_2026-10-17_relance-du-compte/story.txt) |
 
 ### Semaine du 19/10 au 25/10
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | lun. 19/10 | 12h15 | [P05 · Prêt en 5 minutes. Zéro prise de tête.](posts/P05_2026-10-19_pret-en-5-minutes/post.txt) | road trip en voiture, moto, raid (toutes cibles) | [S08 · Relance du compte : « Ton road trip, en direct. »](stories/S08_2026-10-19_relance-du-compte/story.txt) |
-| [ ] | lun. 19/10 | 19h | [P06 · Ton road trip, en direct. (c'est quoi trophytracker ?)](posts/P06_2026-10-19_ton-road-trip-en-direct/post.txt) | toutes les cibles | [S08 · Relance du compte : « Ton road trip, en direct. »](stories/S08_2026-10-19_relance-du-compte/story.txt) |
 | [ ] | mer. 21/10 | 19h | [P07 · Ce que voient tes proches pendant que tu roules](posts/P07_2026-10-21_ce-que-voient-tes-proches/post.txt) | les proches (et les voyageurs qui veulent les rassurer) | [S09 · Visite guidée de la page d'exemple](stories/S09_2026-10-21_visite-guidee-de-la-page-dexemple/story.txt) |
 | [ ] | ven. 23/10 | 12h15 | [P08 · Route des Grandes Alpes : 675 km en direct (la page d'exemple)](posts/P08_2026-10-23_route-des-grandes-alpes-en-direct/post.txt) | road trip en voiture, moto | [S10 · Vacances de la Toussaint : tu pars ?](stories/S10_2026-10-23_vacances-de-la-toussaint/story.txt) |
 
@@ -66,6 +68,7 @@ Après le post P06 du lundi 19/10 à 19h : **épingler P06 (c'est quoi), P05 (co
 | [ ] | lun. 02/11 | 19h | [P12 · Ce que tu as pour 15 €](posts/P12_2026-11-02_lancement-ce-que-tu-as-pour-15-euros/post.txt) | toutes les cibles | [S12 · Lancement : 15 € par road trip (quiz)](stories/S12_2026-11-02_lancement-15-euros-quiz/story.txt) |
 | [ ] | mer. 04/11 | 12h15 | [P13 · Entre amis : toute la bande sur la même page](posts/P13_2026-11-04_entre-amis-toute-la-bande/post.txt) | entre amis | [S13 · Entre amis : qui raconte le mieux ?](stories/S13_2026-11-04_entre-amis-qui-raconte-le-mieux/story.txt) |
 | [ ] | ven. 06/11 | 19h | [P14 · Carnet IA : ce que tu dis, ce que l'IA écrit](posts/P14_2026-11-06_carnet-ia-ce-que-tu-dis-ce-que-lia-ecrit/post.txt) | road trip (toutes cibles) | [S14 · Démo : le carnet raconté à l'IA, en vrai](stories/S14_2026-11-06_demo-carnet-ia/story.txt) |
+| [ ] | sam. 07/11 | 12h15 | [P44 · On ne voit jamais ta carte bancaire](posts/P44_2026-11-07_paiement-securise-par-stripe/post.txt) | toutes les cibles | repartage du post (S27) |
 
 ### Semaine du 09/11 au 15/11
 
@@ -162,38 +165,31 @@ Les 7 stories à la une (S01 à S07) sont permanentes : voir [bio-et-a-la-une.md
 | [P40 · Le road trip de la semaine](posts/P40_modele_modele-road-trip-de-la-semaine/post.txt) | Dès qu'un vrai voyageur accepte (accord écrit), en collaboration. Ensuite 1 par semaine à la place d'un post du mercredi. |
 | [P41 · Un vrai retour](posts/P41_modele_modele-avis-reel/post.txt) | Seulement avec une vraie citation d'un utilisateur de la nouvelle appli. |
 | [P42 · Nouveau : c'est en ligne](posts/P42_modele_modele-nouveau-cest-en-ligne/post.txt) | Le jour où une nouvelle fonctionnalité est réellement en ligne. |
-| [P43 · Qui est derrière trophytracker ?](posts/P43_modele_modele-qui-est-derriere/post.txt) | Quand tu as écrit ton texte (je n'invente rien sur toi). |
+| [P43 · Qui est derrière trophytracker ?](posts/P43_modele_modele-qui-est-derriere/post.txt) | Prêt : quand tu veux, un samedi par exemple (relis le texte, il parle en ton nom). |
 
-## 5 · Captures à faire (pour les visuels)
+## 5 · Captures et visuels
 
-Les visuels de type ÉCRAN utilisent de vraies captures. Sur téléphone, en mode sombre, sans notification visible.
-Sur toute capture de la page d'exemple, la pastille « road trip d'exemple » et la mention « Imagerie © Esri, Maxar,
-Earthstar Geographics » doivent rester visibles.
+Les visuels utilisent de **vraies captures de la page d'exemple** (prises le 15/10 sur trophytracker.fr/road-trip/exemple :
+couverture, carte, relief 3D, tableau de bord, météo, profil d'altitude, carnet, photos, sponsors, mur d'encouragements),
+toujours avec la pastille « road trip d'exemple ».
 
-| Code | Capture | Où | Utilisée dans |
-|---|---|---|---|
-| C1 | Page d'exemple, vue d'ensemble (couverture + carte) | trophytracker.fr/road-trip/exemple | P12, P17, S01 |
-| C2 | Carte satellite avec trace, étapes et balise en direct | page d'exemple | P06, P07, P08 |
-| C3 | Relief 3D d'un col | page d'exemple | P06, P08, P11 |
-| C4 | Tableau de bord (vitesse, altitude, distance, batterie) | page d'exemple | P08, P19 |
-| C5 | Météo visuelle | page d'exemple | P07, P19 |
-| C6 | Profil d'altitude | page d'exemple | P08, P11 |
-| C7 | Carnet « Doublés par un papi au Galibier » | page d'exemple | P02, P07, P08, S03 |
-| C8 | Bandeau « Pas de réseau, c'est normal » | une page en conditions réelles | P01, P09, P36 |
-| C9 | Création guidée d'un road trip | espace voyageur | P05, S02 |
-| C10 | QR code à scanner avec Traccar Client | espace voyageur | P05, S02 |
-| C11 | Replay 3D (image fixe + exports vidéo paysage, story, carré) | espace voyageur | P06, P12, P16, P33 |
-| C12 | Mur d'encouragements | page d'exemple ou vraie page | P21, S18 |
-| C13 | E-mail « résumé du soir » | ta boîte mail (invite-toi comme proche) | P30, P31, S04 |
-| C14 | E-mail « C'est parti » | ta boîte mail | P22, P31 |
-| C15 | Rapport PDF pour les sponsors | espace voyageur | P09, P15, P18, P27 |
-| C16 | Visuels QR : autocollant carré, rond, story satellite | espace voyageur | P24, S05 |
-| C17 | Guide « Prêt au départ » + bouton « Je pars » | espace voyageur | P22 |
-| C18 | Vitrine des sponsors + lien de cagnotte | une page avec sponsors | P09, P18, P27 |
-| C19 | Pastille « privé · accès par lien » | page d'exemple | P03, P28 |
-| C20 | Arrêt de nuit flouté sur la carte | une vraie page | P03, P28, P30 |
+Ce qui demande ton compte (création guidée, QR code Traccar, e-mails « C'est parti » et « résumé du soir », rapport PDF,
+autocollants QR, guide « Prêt au départ », arrêt de nuit flouté) est traité en visuel typographique, sans fausse capture.
+Tu peux remplacer ces slides par de vraies captures quand tu veux : dis-le-moi et je regénère.
 
-## 6 · Routine (20 minutes par jour)
+Trois visuels attendent du vrai contenu de ta part (marqués `[À COMPLÉTER]`) :
+- **P14, slide 3** : la vraie page de carnet obtenue en dictant le texte de la slide 2 (6/11) ;
+- **P16, slide 2** : la vidéo du replay 3D, exportée depuis la page d'exemple (bouton « Exporter en vidéo ») ou ton road trip (11/11) ;
+- **S16** : la même vidéo au format story.
+
+## 6 · ⚠ Le prix sur le site
+
+Le code du site affiche encore « Tarif de lancement jusqu'au 30 novembre 2026, puis 19 € » sur la page de paiement et dans
+les conditions de vente, et facture **19 € à partir du 1er décembre** (`apps/web/src/lib/legal.ts` + fonction
+`private.crew_price_at` en base). Tous les posts disent « 15 € par road trip » : pour qu'ils restent vrais après le 30/11,
+il faut passer le prix normal à 15 € dans le site (ou me dire de revoir les posts).
+
+## 7 · Routine (20 minutes par jour)
 
 - **5 min**, stories : la story du jour (voir le tableau ci-dessus).
 - **7 min**, commentaires : 5 vrais commentaires sous des posts de road trip, de moto, de raid ou de van

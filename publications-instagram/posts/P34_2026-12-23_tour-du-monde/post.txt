@@ -5,7 +5,7 @@ Cible    : tour du monde (cible secondaire)
 Sujet    : page privée, sans réseau, résumé du soir, carnet
 Format   : post simple · 4:5, PNG 2160 × 2700 · importer dans l'ordre
 Objectif : enregistrer
-Remarque : Cible secondaire. [À CONFIRMER : y a-t-il une durée maximale pour un road trip ? Si oui, adapter.]
+Remarque : Cible secondaire. Pas de durée maximale pour un road trip (confirmé par Julien).
 
 ━━━━━━━━ VISUELS ━━━━━━━━
 
@@ -18,7 +18,7 @@ Visuel : Image satellite très large (vue d'une côte ou d'un continent), une lo
 
 ━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
 
-Un grand voyage, c'est des mois loin de ceux que tu aimes, et des journées entières sans réseau.
+Un grand voyage, c'est des mois loin de ceux que tu aimes, et des journées entières sans réseau. Sur trophytracker, pas de durée maximale : trois jours ou six mois, c'est un seul road trip.
 
 Avec trophytracker, ils suivent ta trace en direct sur ta page privée. Sans réseau, tout est gardé en mémoire et envoyé dès que ça capte. Le soir, tu racontes ta journée au micro et l'IA en fait ton carnet. Et chaque soir, ils reçoivent le résumé par e-mail.
 
