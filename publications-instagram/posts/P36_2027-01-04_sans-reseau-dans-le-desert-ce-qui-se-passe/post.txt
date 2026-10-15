@@ -1,0 +1,56 @@
+P36 · SANS RÉSEAU DANS LE DÉSERT : CE QUI SE PASSE VRAIMENT
+
+Date     : lundi 4 janvier 2027 · 19h
+Cible    : raid / rallye
+Sujet    : le fonctionnement sans réseau, raconté comme une journée
+Format   : carrousel 6 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
+Objectif : enregistrer + partager à son équipage
+Remarque : Les heures sont un scénario d'illustration (pas un vrai voyage).
+
+━━━━━━━━ VISUELS ━━━━━━━━
+
+1/6 · COUVERTURE
+Texte sur l'image :
+Titre : « Une journée sans réseau. » / « Ce qui se passe vraiment. »
+Visuel : Photo : piste dans les dunes, ciel immense, aucun véhicule reconnaissable.
+
+2/6 · TEXTE
+Texte sur l'image :
+DM Mono : « 10:42 »
+« Dernière barre de réseau. »
+« Ton téléphone continue d'enregistrer chaque position. »
+Visuel : Gabarit TEXTE, icône de barres de réseau qui tombent à zéro.
+
+3/6 · TEXTE
+Texte sur l'image :
+DM Mono : « 13:00 »
+« Chez toi, ils voient le bandeau : “Pas de réseau, c'est normal”. »
+Visuel : Reproduction du bandeau de la page.
+
+4/6 · TEXTE
+Texte sur l'image :
+DM Mono : « 16:15 »
+« Ça capte. Tout part d'un coup. »
+« La trace de la journée se complète sur ta page. »
+Visuel : Trace ambre en pointillés qui devient pleine.
+
+5/6 · TEXTE
+Texte sur l'image :
+DM Mono : « 21:00 »
+« Tu racontes ta journée. L'IA écrit. »
+Visuel : Gabarit TEXTE, bouton micro.
+
+6/6 · DERNIÈRE SLIDE
+Texte sur l'image :
+« Même sans réseau, ton voyage se raconte. »
+Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en haut à droite, logo TROPHYTRACKER centré en haut, la phrase en Bricolage Grotesque, puis « trophytracker.fr · lien en bio » en DM Mono et la pastille « 15 € par road trip · sans abonnement ».
+
+━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
+
+10 h 42, dernière barre de réseau. Et après ?
+
+Ton téléphone continue d'enregistrer chaque position. Chez toi, ceux qui te suivent voient un bandeau clair : « Pas de réseau, c'est normal ». Dès que ça capte, tout part d'un coup et la trace de la journée se complète sur ta page. Et le soir, tu racontes ta journée au micro.
+
+Enregistre ce post et envoie-le à ton équipage avant la première piste.
+
+#raid #rallye #raidaventure #rallyeraid #equipage #desert #trophytracker

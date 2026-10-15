@@ -1,0 +1,72 @@
+P26 · FAQ : TU TE DEMANDES…
+
+Date     : vendredi 4 décembre 2026 · 19h
+Cible    : toutes les cibles
+Sujet    : lever les freins
+Format   : carrousel 9 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
+Objectif : commenter (poser une question)
+Remarque : Remplace l'ancien post 16. La slide 7 (pas un outil de sécurité ni de navigation) est obligatoire.
+
+━━━━━━━━ VISUELS ━━━━━━━━
+
+1/9 · COUVERTURE
+Texte sur l'image :
+Titre : « FAQ » / « Tu te demandes… »
+Visuel : Gabarit TEXTE.
+
+2/9 · TEXTE
+Texte sur l'image :
+« Mes proches doivent installer une appli ? »
+« Non. Ils ouvrent ton lien, sans compte, sur téléphone ou ordinateur. »
+Visuel : Gabarit TEXTE, question en rouge, réponse en papier.
+
+3/9 · TEXTE
+Texte sur l'image :
+« Il faut acheter un boîtier GPS ? »
+« Non. Ton téléphone suffit, avec l'appli gratuite Traccar Client (Android et iPhone). Un boîtier compatible marche aussi. »
+Visuel : Idem.
+
+4/9 · TEXTE
+Texte sur l'image :
+« Et sans réseau ? »
+« Tout est gardé en mémoire et envoyé dès que ça capte. »
+Visuel : Idem.
+
+5/9 · TEXTE
+Texte sur l'image :
+« Qui peut voir ma page ? »
+« Seulement ceux qui ont ton lien. Jamais sur Google. Les nuits sont floutées. Public en option. »
+Visuel : Idem.
+
+6/9 · TEXTE
+Texte sur l'image :
+« Combien ça coûte ? »
+« 15 € par road trip, une seule fois. Pas d'abonnement. Gratuit pour ceux qui suivent. »
+Visuel : Idem.
+
+7/9 · TEXTE
+Texte sur l'image :
+« Ça sert à s'orienter, ou en cas de pépin ? »
+« Non. trophytracker n'est ni un outil de navigation, ni un outil de sécurité ou de secours. C'est fait pour partager ton voyage. »
+Visuel : Idem, cadre rouge autour (comme l'ancienne story FAQ obligatoire).
+
+8/9 · TEXTE
+Texte sur l'image :
+« Je peux arrêter quand je veux ? »
+« Oui : tu coupes le suivi ou tu effaces ta trace à tout moment. »
+Visuel : Idem.
+
+9/9 · DERNIÈRE SLIDE
+Texte sur l'image :
+« Une autre question ? Pose-la en commentaire. »
+Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en haut à droite, logo TROPHYTRACKER centré en haut, la phrase en Bricolage Grotesque, puis « trophytracker.fr · lien en bio » en DM Mono et la pastille « 15 € par road trip · sans abonnement ».
+
+━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
+
+Les questions qu'on nous pose le plus, en un carrousel.
+
+Une autre question ? Pose-la en commentaire, on répond à tout. Et retrouve la FAQ dans nos stories à la une.
+
+trophytracker sert à partager ton voyage avec ceux que tu choisis. Ce n'est ni un outil de navigation, ni un outil de sécurité ou de secours.
+
+#roadtrip #faq #voyage #raid #moto #trophytracker

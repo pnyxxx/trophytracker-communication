@@ -1,0 +1,28 @@
+S19 · CONCOURS (STORIES D'ACCOMPAGNEMENT)
+
+Date   : vendredi 11 décembre 2026 · 12h30 → J+?
+Cible  : toutes les cibles
+Format : 4 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
+Remarque : ⚠ À COMPLÉTER ET VALIDER avec le post P29 (nombre de codes, dates).
+
+━━━━━━━━ ÉCRANS ━━━━━━━━
+
+ÉCRAN jour 1 · 12h30
+Texte : « Concours : [X] road trips à gagner ! »
+Sticker : repartage du post P29
+Visuel : Le post P29 en repartage.
+
+ÉCRAN jour 1 · 19h
+Texte : « Fin du concours dans : »
+Sticker : sticker COMPTE À REBOURS « Fin du concours » → [DATE ET HEURE]
+Visuel : Fond encre, ticket « TT-XXXX-XXXX ».
+
+ÉCRAN veille de la fin
+Texte : « Dernier jour pour participer ! »
+Sticker : repartage du post P29
+Visuel : Idem.
+
+ÉCRAN jour du tirage
+Texte : « Bravo à [@gagnant(s)] ! On t'envoie ton code en message. »
+Sticker : sticker MENTION des gagnants
+Visuel : Fond encre, confettis rouges et ambre. ⚠ Envoyer les codes TT-XXXX-XXXX en message privé, jamais en story.

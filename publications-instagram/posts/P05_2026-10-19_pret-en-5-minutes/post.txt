@@ -1,0 +1,60 @@
+P05 · PRÊT EN 5 MINUTES. ZÉRO PRISE DE TÊTE.
+
+Date     : lundi 19 octobre 2026 · 12h15
+Cible    : road trip en voiture, moto, raid (toutes cibles)
+Sujet    : création guidée, QR code Traccar Client, lien
+Format   : carrousel 6 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
+Objectif : enregistrer
+Remarque : Grille de départ · À ÉPINGLER (2ᵉ épinglé : « comment ça marche »). Remplace l'ancien post 2.
+
+━━━━━━━━ VISUELS ━━━━━━━━
+
+1/6 · COUVERTURE
+Texte sur l'image :
+Titre : « Prêt en 5 minutes. » / « Zéro prise de tête. »
+Chrono en DM Mono : « 05:00 »
+« glisse → »
+Visuel : Gabarit COUVERTURE, fond encre (pas de photo). Un grand chrono « 05:00 » en DM Mono rouge, cerclé comme la balise.
+
+2/6 · ÉCRAN
+Texte sur l'image :
+« 1. Tu crées ton road trip. »
+« Un nom, une photo de couverture, tes compagnons de route, d'où à où, quand. L'itinéraire ? Facultatif : la trace s'écrit en roulant. »
+Visuel : Gabarit ÉCRAN. Capture réelle de la création guidée dans l'espace voyageur (capture C9).
+
+3/6 · ÉCRAN
+Texte sur l'image :
+« 2. Tu scannes un QR code. »
+« Avec l'appli gratuite Traccar Client, sur Android ou iPhone. Ton téléphone envoie ta position. (Ou un boîtier GPS compatible.) »
+Visuel : Photo : une main tient un téléphone qui scanne le QR code affiché sur l'écran d'un ordinateur, sur une table (jamais dans une voiture en marche). Ou capture C10.
+
+4/6 · TEXTE
+Texte sur l'image :
+« 3. Tu invites tes proches. »
+« Par e-mail, directement depuis ton espace, ou tu envoies ton lien où tu veux. Eux : sans compte, sans appli. »
+Visuel : Gabarit TEXTE. Un lien « trophytracker.fr/road-trip/ton-voyage » en DM Mono papier, avec 3 enveloppes stylisées qui en partent.
+
+5/6 · ÉCRAN
+Texte sur l'image :
+« Et tu pars. »
+« Ta position se met à jour en moins de 10 secondes. Sans réseau, tout est gardé et envoyé dès que ça capte. »
+Visuel : Gabarit ÉCRAN. Capture de la page d'exemple avec la balise en direct et la pastille « en direct · à l'instant » (pastille « road trip d'exemple » visible).
+
+6/6 · DERNIÈRE SLIDE
+Texte sur l'image :
+« 5 minutes ce soir. En direct demain. »
+Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en haut à droite, logo TROPHYTRACKER centré en haut, la phrase en Bricolage Grotesque, puis « trophytracker.fr · lien en bio » en DM Mono et la pastille « 15 € par road trip · sans abonnement ».
+
+━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
+
+Pas de boîtier à acheter. Pas d'appli pour tes proches. 5 minutes, et c'est prêt.
+
+1. Tu crées ton road trip : un nom, une photo de couverture, tes compagnons de route, d'où à où, quand. Pas besoin d'itinéraire, ta trace s'écrit en roulant.
+2. Tu scannes un QR code avec l'appli gratuite Traccar Client (Android ou iPhone). Ton téléphone envoie ta position. Tu as un boîtier GPS compatible ? Ça marche aussi.
+3. Tu invites ceux qui vont te suivre, par e-mail ou en leur envoyant ton lien.
+
+Et tu pars. Ta position se met à jour en moins de 10 secondes, et sans réseau tout est gardé en mémoire puis envoyé dès que ça capte.
+
+Enregistre ce post pour le soir où tu prépares ton départ. Lien en bio.
+
+#roadtrip #roadtripfrance #roadtripper #voyageenvoiture #carnetdevoyage #trophytracker

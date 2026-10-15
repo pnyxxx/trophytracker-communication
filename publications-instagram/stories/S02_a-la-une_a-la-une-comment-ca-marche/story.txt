@@ -1,0 +1,37 @@
+S02 · À LA UNE « COMMENT ÇA MARCHE »
+
+Date   : permanente (story à la une) · à mettre en place le 18/10
+Cible  : tout le monde
+Format : 5 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
+Remarque : Remplace l'ancienne story à la une « Comment ça marche ». Couverture : « 1·2·3 » en DM Mono rouge.
+
+━━━━━━━━ ÉCRANS ━━━━━━━━
+
+ÉCRAN 1/5
+Texte : « Prêt en 5 minutes. » / « Zéro prise de tête. »
+Sticker : aucun
+Visuel : Fond encre, chrono « 05:00 » rouge.
+
+ÉCRAN 2/5
+Texte : « 1. Tu crées ton road trip. »
+« Un nom, une photo, tes compagnons, d'où à où, quand. L'itinéraire est facultatif. »
+Sticker : aucun
+Visuel : Enregistrement d'écran de la création guidée (C9).
+
+ÉCRAN 3/5
+Texte : « 2. Tu scannes le QR code avec Traccar Client. »
+« Appli gratuite, Android et iPhone. Ou un boîtier GPS compatible. »
+Sticker : aucun
+Visuel : Main qui scanne un QR code sur un écran d'ordinateur (C10).
+
+ÉCRAN 4/5
+Texte : « 3. Tu invites tes proches. »
+« Par e-mail ou avec ton lien. Ils suivent sans compte et sans appli. »
+Sticker : aucun
+Visuel : Fond encre, lien en DM Mono.
+
+ÉCRAN 5/5
+Texte : « Pas de réseau ? »
+« Tout est gardé en mémoire et envoyé dès que ça capte. »
+Sticker : sticker LIEN → https://trophytracker.fr (texte du sticker : « trophytracker.fr »), en bas
+Visuel : Photo de piste ou de col, bandeau « Pas de réseau, c'est normal » reproduit.

@@ -1,0 +1,41 @@
+P39 · TON ITINÉRAIRE EST PRÊT ? IMPORTE TON GPX. (SINON, ROULE.)
+
+Date     : lundi 11 janvier 2027 · 19h
+Cible    : à moto, road trip en voiture
+Sujet    : import GPX, itinéraire facultatif, détection des nuits et des arrêts
+Format   : carrousel 4 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
+Objectif : enregistrer
+
+━━━━━━━━ VISUELS ━━━━━━━━
+
+1/4 · COUVERTURE
+Texte sur l'image :
+Titre : « Ton itinéraire est prêt ? » / « Importe ton GPX. »
+Visuel : Capture de l'import GPX dans l'espace voyageur [à faire], ou fichier « .gpx » stylisé qui se transforme en trace sur la carte.
+
+2/4 · TEXTE
+Texte sur l'image :
+« Pas d'itinéraire ? »
+« Pas grave : ta trace s'écrit en roulant. »
+Visuel : Trace ambre qui se dessine sur une carte vide.
+
+3/4 · TEXTE
+Texte sur l'image :
+« Les nuits et les arrêts ? »
+« Détectés tout seuls. »
+Visuel : Carte avec étiquettes « NUIT À … » et « ARRÊT ».
+
+4/4 · DERNIÈRE SLIDE
+Texte sur l'image :
+« Prépare tout, ou rien. Ta page suit. »
+Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en haut à droite, logo TROPHYTRACKER centré en haut, la phrase en Bricolage Grotesque, puis « trophytracker.fr · lien en bio » en DM Mono et la pastille « 15 € par road trip · sans abonnement ».
+
+━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
+
+Il y a ceux qui préparent leur road trip au kilomètre près, avec leur fichier GPX. Et ceux qui partent et voient bien.
+
+Sur trophytracker, les deux marchent. Tu importes ton GPX, ou tu ne mets rien du tout : ta trace s'écrit en roulant. Tes étapes, c'est toi qui les crées, et tes nuits et tes arrêts sont détectés tout seuls.
+
+Tu es plutôt GPX ou plutôt « on verra » ? Dis-le en commentaire.
+
+#moto #roadtripmoto #gpx #roadtrip #cols #trophytracker

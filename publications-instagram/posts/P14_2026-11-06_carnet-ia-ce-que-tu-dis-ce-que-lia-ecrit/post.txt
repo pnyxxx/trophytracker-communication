@@ -1,0 +1,51 @@
+P14 · CARNET IA : CE QUE TU DIS, CE QUE L'IA ÉCRIT
+
+Date     : vendredi 6 novembre 2026 · 19h
+Cible    : road trip (toutes cibles)
+Sujet    : démo avant / après du carnet raconté à l'IA
+Format   : carrousel 5 visuels · 4:5, PNG 2160 × 2700 · importer dans l'ordre
+Objectif : enregistrer
+Remarque : ⚠ La slide 3 doit être un VRAI résultat : dicte le texte de la slide 2 dans l'appli et fais la capture de la page générée. Ne pas écrire soi-même le résultat de l'IA.
+
+━━━━━━━━ VISUELS ━━━━━━━━
+
+1/5 · COUVERTURE
+Texte sur l'image :
+Titre : « Ce que tu dis. » / « Ce que l'IA écrit. »
+« glisse → »
+Visuel : Gabarit AVANT / APRÈS en aperçu, flouté.
+
+2/5 · AVANT
+Texte sur l'image :
+En haut, DM Mono : « ce que tu dis (exemple) »
+Texte (en gris, comme une transcription brute) :
+« Alors aujourd'hui… euh… on est partis tard, genre 9 h, parce que quelqu'un avait perdu les clés. Elles étaient dans le frigo. Après, le col, euh, magnifique, on s'est arrêtés trois fois pour les photos, et en haut y avait un monsieur qui vendait des… des tartes aux myrtilles. Le soir, pâtes au camping. Voilà. »
+Visuel : Gabarit AVANT / APRÈS, côté gauche. Bouton micro rouge en bas. C'est le texte à dicter dans l'appli pour obtenir la slide 3.
+
+3/5 · APRÈS
+Texte sur l'image :
+En haut, DM Mono : « ce que l'IA écrit »
+[À COMPLÉTER : capture réelle de la page de carnet obtenue]
+Visuel : Gabarit AVANT / APRÈS, côté droit, fond papier.
+
+4/5 · TEXTE
+Texte sur l'image :
+« Ce qu'elle ajoute : les kilomètres et l'altitude du jour. »
+« Ce qu'elle n'ajoute pas : tout ce que tu n'as pas dit. »
+Visuel : Gabarit TEXTE, deux colonnes (✓ en vert / ✕ en rouge).
+
+5/5 · DERNIÈRE SLIDE
+Texte sur l'image :
+« Tu relis. Tu publies. »
+Visuel : Visuel : gabarit DERNIÈRE SLIDE. Fond encre #15161A avec halo rouge en haut à droite, logo TROPHYTRACKER centré en haut, la phrase en Bricolage Grotesque, puis « trophytracker.fr · lien en bio » en DM Mono et la pastille « 15 € par road trip · sans abonnement ».
+
+━━━━━━━━ LÉGENDE À COPIER ━━━━━━━━
+
+À gauche, ce que tu racontes le soir, fatigué, avec les « euh » et les clés retrouvées dans le frigo.
+À droite, ce que l'IA en fait : une page de carnet propre, avec tes anecdotes, tes mots, et les kilomètres et l'altitude du jour.
+
+Elle retire les hésitations. Elle n'invente rien : ce que tu n'as pas dit n'apparaît pas. Et c'est toi qui relis avant de publier.
+
+C'est la fonction qu'on préfère dans trophytracker. Enregistre ce post et teste-la sur ton prochain road trip. Lien en bio.
+
+#carnetdevoyage #carnetderoute #roadtrip #ia #voyage #trophytracker
