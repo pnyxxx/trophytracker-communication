@@ -374,28 +374,7 @@ Envoie ce post à ceux qui vont t'écrire.""",
 ))
 
 P(dict(
-    id=19, date=d("2026-11-26"), heure="19h", slug="humour-les-roles-dans-lequipage",
-    titre="Humour : les rôles dans l'équipage.", cible="entre amis, équipages", sujet="humour, les rôles",
-    objectif="taguer ses potes",
-    slides=[
-        S("photo", img="echappement", kicker="les rôles dans l'équipage", title=["Le premier rôle :", "« C'est normal, ce bruit ? »"], swipe="glisse →"),
-        S("type", align="center", items=[
-            ("2", "Le DJ", "Même playlist depuis le départ. Personne n'ose rien dire."),
-            ("3", "Le photographe", "400 photos de la même dune. Toutes sur la page."),
-            ("4", "Celui qui dort", "A raté le plus beau. Heureusement, il y a le replay 3D."),
-            ("5", "Le conteur", "Le soir, c'est lui qui raconte au micro. L'IA fait le reste."),
-        ]),
-    ],
-    legende="""Dans chaque équipage, il y a le même casting.
-
-Celui qui demande « c'est normal, ce bruit ? », le DJ qui ne lâche pas sa playlist, le photographe et ses 400 photos de la même dune, celui qui dort au meilleur moment, et le conteur du soir.
-
-Tague ta bande et dis qui fait quoi. 👇""",
-    tags="#roadtripentreamis #raid #humour #roadtrip",
-))
-
-P(dict(
-    id=20, date=d("2026-11-28"), heure="12h15", slug="pret-au-depart",
+    id=19, date=d("2026-11-28"), heure="12h15", slug="pret-au-depart",
     titre="Prêt au départ : le guide en 8 étapes.", cible="raid / rallye, road trip", sujet="guide « Prêt au départ » et bouton « Je pars »",
     objectif="enregistrer",
     slides=[
@@ -419,7 +398,7 @@ Enregistre ce post pour la veille du départ.""",
 # ───────────── décembre ─────────────
 
 P(dict(
-    id=21, date=d("2026-12-01"), heure="19h", slug="le-resume-du-soir",
+    id=20, date=d("2026-12-01"), heure="19h", slug="le-resume-du-soir",
     titre="Chaque soir, ta journée arrive chez eux.", cible="proches", sujet="résumé du soir par e-mail",
     objectif="partager aux proches",
     slides=[
@@ -435,7 +414,7 @@ Et le jour du départ, ils reçoivent l'e-mail « C'est parti ».""",
 ))
 
 P(dict(
-    id=22, date=d("2026-12-03"), heure="19h", slug="faq",
+    id=21, date=d("2026-12-03"), heure="19h", slug="faq",
     titre="FAQ : tu te demandes…", cible="toutes les cibles", sujet="questions fréquentes",
     objectif="enregistrer, commentaires",
     slides=[
@@ -460,7 +439,7 @@ trophytracker sert à partager ton voyage avec ceux que tu choisis. Ce n'est ni 
 ))
 
 P(dict(
-    id=23, date=d("2026-12-05"), heure="12h15", slug="le-bingo-du-rallye",
+    id=22, date=d("2026-12-05"), heure="12h15", slug="le-bingo-du-rallye",
     titre="Le bingo du rallye.", cible="raid / rallye, entre amis", sujet="jeu, engagement",
     objectif="partager en story, taguer",
     slides=[
@@ -479,7 +458,7 @@ Fais une capture, coche tes cases et partage-la en story en taguant @trophytrack
 ))
 
 P(dict(
-    id=24, date=d("2026-12-08"), heure="19h", slug="tes-etapes-cest-toi",
+    id=23, date=d("2026-12-08"), heure="19h", slug="tes-etapes-cest-toi",
     titre="Tes étapes, c'est toi qui les crées.", cible="road trip, raid / rallye", sujet="étapes, import GPX, détection des nuits",
     objectif="lever le « je n'ai pas d'itinéraire »",
     slides=[
@@ -499,7 +478,7 @@ Ton voyage, à ton rythme.""",
 ))
 
 P(dict(
-    id=25, date=d("2026-12-10"), heure="19h", slug="concours-gagne-ton-road-trip",
+    id=24, date=d("2026-12-10"), heure="19h", slug="concours-gagne-ton-road-trip",
     titre="Concours : ton prochain road trip, on te l'offre.", cible="toutes les cibles", sujet="concours (code d'accès offert)",
     objectif="abonnés, commentaires",
     remarque="Tirage au sort le vendredi 18/12 parmi les participations complètes, résultat en story. Le gagnant reçoit un code d'accès TT-XXXX-XXXX.",
@@ -523,7 +502,7 @@ Ce concours n'est ni organisé ni parrainé par Instagram.""",
 ))
 
 P(dict(
-    id=26, date=d("2026-12-15"), heure="19h", slug="a-quatre-3-euros-75-chacun",
+    id=25, date=d("2026-12-15"), heure="19h", slug="a-quatre-3-euros-75-chacun",
     titre="À quatre, 3,75 € chacun.", cible="entre amis, équipages", sujet="le prix, partagé ; pourquoi pas d'abonnement",
     objectif="partager à son équipage",
     slides=[
@@ -539,7 +518,7 @@ Envoie ça à ton équipage pour le partage des frais.""",
 ))
 
 P(dict(
-    id=27, date=d("2026-12-17"), heure="19h", slug="un-voyage-une-page",
+    id=26, date=d("2026-12-17"), heure="19h", slug="un-voyage-une-page",
     titre="Un voyage. Une page.", cible="road trip, van / camping-car, tour du monde", sujet="plusieurs road trips par compte",
     objectif="montrer que ça sert pour tous les voyages",
     slides=[
@@ -552,7 +531,7 @@ Avec un seul compte, tu crées autant de road trips que tu veux. Chacun a sa pag
 ))
 
 P(dict(
-    id=28, date=d("2026-12-21"), heure="19h", slug="ton-road-trip-2027",
+    id=27, date=d("2026-12-21"), heure="19h", slug="ton-road-trip-2027",
     titre="Ton road trip 2027, c'est lequel ?", cible="toutes les cibles", sujet="engagement, fin d'année",
     objectif="commentaires",
     slides=[
@@ -571,7 +550,7 @@ Réponds en commentaire avec ton chiffre (et ta destination si tu la connais dé
 ))
 
 P(dict(
-    id=29, date=d("2027-01-06"), heure="19h", slug="qui-est-derriere-trophytracker",
+    id=28, date=d("2027-01-06"), heure="19h", slug="qui-est-derriere-trophytracker",
     titre="Qui est derrière trophytracker ?", cible="toutes les cibles", sujet="coulisses, confiance",
     objectif="créer du lien, messages privés",
     slides=[
@@ -588,7 +567,7 @@ Une question, une idée, un bug ? Écris-moi en message, je réponds à tout."""
 # ───────────── modèles sans date (à sortir quand l'occasion se présente) ─────────────
 
 P(dict(
-    id=30, date=None, heure="19h", slug="modele-road-trip-de-la-semaine",
+    id=29, date=None, heure="19h", slug="modele-road-trip-de-la-semaine",
     titre="MODÈLE · Le road trip de la semaine", cible="toutes les cibles", sujet="repartage d'un vrai voyageur",
     objectif="preuve sociale réelle",
     remarque="[À COMPLÉTER] avec un vrai voyageur qui a partagé sa page et accepté d'être mis en avant. Remplacer la 2ᵉ slide par une vraie capture de sa page.",
@@ -605,7 +584,7 @@ Tu veux être le prochain road trip de la semaine ? Partage ta page ou ton repla
 ))
 
 P(dict(
-    id=31, date=None, heure="19h", slug="modele-avis-reel",
+    id=30, date=None, heure="19h", slug="modele-avis-reel",
     titre="MODÈLE · Un vrai retour", cible="toutes les cibles", sujet="citation réelle d'un voyageur ou d'un proche",
     objectif="preuve sociale réelle",
     remarque="[À COMPLÉTER] uniquement avec une citation réelle, avec l'accord de la personne. Jamais de faux avis.",
@@ -621,7 +600,7 @@ Envoie ce post à la personne qui va te suivre pendant ton prochain road trip.""
 ))
 
 P(dict(
-    id=32, date=None, heure="19h", slug="modele-nouveau-cest-en-ligne",
+    id=31, date=None, heure="19h", slug="modele-nouveau-cest-en-ligne",
     titre="MODÈLE · Nouveau : c'est en ligne", cible="toutes les cibles", sujet="annonce d'une nouvelle fonctionnalité",
     objectif="montrer que l'appli vit",
     remarque="[À COMPLÉTER] uniquement pour une fonctionnalité réellement en ligne. Ajouter une vraie capture si possible.",

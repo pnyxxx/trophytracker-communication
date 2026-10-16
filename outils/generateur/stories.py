@@ -118,14 +118,14 @@ A(dict(id=14, date=d("2026-11-24"), permanent=False, heure="18h", slug="mur-denc
        ]))
 
 A(dict(id=15, date=d("2026-12-10"), permanent=False, heure="12h → 19h", slug="concours", titre="Concours (stories d'accompagnement)",
-       cible="toutes les cibles", remarque="Le jour du post P25, puis rappel le 17/12 à 18h (écran 2). Résultat du tirage le 18/12 en story.",
+       cible="toutes les cibles", remarque="Le jour du post P24, puis rappel le 17/12 à 18h (écran 2). Résultat du tirage le 18/12 en story.",
        ecrans=[
-           S("photo", label="10/12", img="bivouac", pos="50% 60%", pill="concours", title=["Ton prochain road trip,", "on te l'offre."], sticker="repartage du post P25"),
+           S("photo", label="10/12", img="bivouac", pos="50% 60%", pill="concours", title=["Ton prochain road trip,", "on te l'offre."], sticker="repartage du post P24"),
            S("type", label="17/12", bg="red", title=["Dernier jour", "pour participer."], red=[], sub="Fin ce soir à 23h59.", sticker="sticker COMPTE À REBOURS « Fin du concours » (17/12, 23h59)"),
        ]))
 
 A(dict(id=16, date=d("2026-12-21"), permanent=False, heure="18h", slug="noel", titre="Noël : tes road trips 2027",
-       cible="toutes les cibles", remarque="Le jour du post P28.",
+       cible="toutes les cibles", remarque="Le jour du post P27.",
        ecrans=[
            S("type", label="1/1", bg="red", kicker="2027", title=["Ton road trip 2027,", "c'est où ?"], red=[], sticker="sticker QUESTION « Ta destination »"),
        ]))

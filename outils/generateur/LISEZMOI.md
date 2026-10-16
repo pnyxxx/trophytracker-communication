@@ -1,7 +1,7 @@
 # Générateur des publications
 
 Les textes et la mise en page des publications sont écrits **ici**, dans deux fichiers Python :
-`posts.py` (P01 à P32) et `stories.py` (S01 à S22). Chaque slide déclare son gabarit (`S("photo", …)`, `S("screen", …)`…,
+`posts.py` (P01 à P31) et `stories.py` (S01 à S22). Chaque slide déclare son gabarit (`S("photo", …)`, `S("screen", …)`…,
 voir `render.py`). Les photos et captures disponibles sont listées dans `assets.py`.
 
 ```sh

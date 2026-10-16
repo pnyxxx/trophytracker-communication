@@ -1,6 +1,6 @@
 # Plan de publication Instagram : trophytracker
 
-Du **samedi 17 octobre 2026 au mercredi 6 janvier 2027** : 29 posts datés (1 par jour au maximum, 2 à 3 par semaine),
+Du **samedi 17 octobre 2026 au mercredi 6 janvier 2027** : 28 posts datés (1 par jour au maximum, 2 à 3 par semaine),
 9 séquences de stories datées, des stories du quotidien, et 3 posts modèles sans date.
 **Un post = un sujet** : aucune fonctionnalité ni aucun visuel n'est répété d'un post à l'autre (refonte du 16/10).
 
@@ -83,42 +83,41 @@ Chaque dossier contient les images prêtes à poster (`PNN_1-sur-N.png`…, à i
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
 | [ ] | mar. 24/11 | 19h | [P18 · Un mot de chez toi, lu au bivouac.](posts/P18_2026-11-24_un-mot-lu-au-bivouac/post.txt) | proches, raid / rallye | [S14 · Le mur d'encouragements](stories/S14_2026-11-24_mur-dencouragements/story.txt) |
-| [ ] | jeu. 26/11 | 19h | [P19 · Humour : les rôles dans l'équipage.](posts/P19_2026-11-26_humour-les-roles-dans-lequipage/post.txt) | entre amis, équipages | repartage du post (S22) |
-| [ ] | sam. 28/11 | 12h15 | [P20 · Prêt au départ : le guide en 8 étapes.](posts/P20_2026-11-28_pret-au-depart/post.txt) | raid / rallye, road trip | repartage du post (S22) |
+| [ ] | sam. 28/11 | 12h15 | [P19 · Prêt au départ : le guide en 8 étapes.](posts/P19_2026-11-28_pret-au-depart/post.txt) | raid / rallye, road trip | repartage du post (S22) |
 
 ### Semaine du 30/11 au 06/12
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | mar. 01/12 | 19h | [P21 · Chaque soir, ta journée arrive chez eux.](posts/P21_2026-12-01_le-resume-du-soir/post.txt) | proches | repartage du post (S22) |
-| [ ] | jeu. 03/12 | 19h | [P22 · FAQ : tu te demandes…](posts/P22_2026-12-03_faq/post.txt) | toutes les cibles | repartage du post (S22) |
-| [ ] | sam. 05/12 | 12h15 | [P23 · Le bingo du rallye.](posts/P23_2026-12-05_le-bingo-du-rallye/post.txt) | raid / rallye, entre amis | repartage du post (S22) |
+| [ ] | mar. 01/12 | 19h | [P20 · Chaque soir, ta journée arrive chez eux.](posts/P20_2026-12-01_le-resume-du-soir/post.txt) | proches | repartage du post (S22) |
+| [ ] | jeu. 03/12 | 19h | [P21 · FAQ : tu te demandes…](posts/P21_2026-12-03_faq/post.txt) | toutes les cibles | repartage du post (S22) |
+| [ ] | sam. 05/12 | 12h15 | [P22 · Le bingo du rallye.](posts/P22_2026-12-05_le-bingo-du-rallye/post.txt) | raid / rallye, entre amis | repartage du post (S22) |
 
 ### Semaine du 07/12 au 13/12
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | mar. 08/12 | 19h | [P24 · Tes étapes, c'est toi qui les crées.](posts/P24_2026-12-08_tes-etapes-cest-toi/post.txt) | road trip, raid / rallye | repartage du post (S22) |
-| [ ] | jeu. 10/12 | 19h | [P25 · Concours : ton prochain road trip, on te l'offre.](posts/P25_2026-12-10_concours-gagne-ton-road-trip/post.txt) | toutes les cibles | [S15 · Concours (stories d'accompagnement)](stories/S15_2026-12-10_concours/story.txt) |
+| [ ] | mar. 08/12 | 19h | [P23 · Tes étapes, c'est toi qui les crées.](posts/P23_2026-12-08_tes-etapes-cest-toi/post.txt) | road trip, raid / rallye | repartage du post (S22) |
+| [ ] | jeu. 10/12 | 19h | [P24 · Concours : ton prochain road trip, on te l'offre.](posts/P24_2026-12-10_concours-gagne-ton-road-trip/post.txt) | toutes les cibles | [S15 · Concours (stories d'accompagnement)](stories/S15_2026-12-10_concours/story.txt) |
 
 ### Semaine du 14/12 au 20/12
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | mar. 15/12 | 19h | [P26 · À quatre, 3,75 € chacun.](posts/P26_2026-12-15_a-quatre-3-euros-75-chacun/post.txt) | entre amis, équipages | repartage du post (S22) |
-| [ ] | jeu. 17/12 | 19h | [P27 · Un voyage. Une page.](posts/P27_2026-12-17_un-voyage-une-page/post.txt) | road trip, van / camping-car, tour du monde | repartage du post (S22) |
+| [ ] | mar. 15/12 | 19h | [P25 · À quatre, 3,75 € chacun.](posts/P25_2026-12-15_a-quatre-3-euros-75-chacun/post.txt) | entre amis, équipages | repartage du post (S22) |
+| [ ] | jeu. 17/12 | 19h | [P26 · Un voyage. Une page.](posts/P26_2026-12-17_un-voyage-une-page/post.txt) | road trip, van / camping-car, tour du monde | repartage du post (S22) |
 
 ### Semaine du 21/12 au 27/12
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | lun. 21/12 | 19h | [P28 · Ton road trip 2027, c'est lequel ?](posts/P28_2026-12-21_ton-road-trip-2027/post.txt) | toutes les cibles | [S16 · Noël : tes road trips 2027](stories/S16_2026-12-21_noel/story.txt) |
+| [ ] | lun. 21/12 | 19h | [P27 · Ton road trip 2027, c'est lequel ?](posts/P27_2026-12-21_ton-road-trip-2027/post.txt) | toutes les cibles | [S16 · Noël : tes road trips 2027](stories/S16_2026-12-21_noel/story.txt) |
 
 ### Semaine du 04/01 au 10/01
 
 | | Date | Heure | Post | Cible | Stories du jour |
 |---|---|---|---|---|---|
-| [ ] | mer. 06/01 | 19h | [P29 · Qui est derrière trophytracker ?](posts/P29_2027-01-06_qui-est-derriere-trophytracker/post.txt) | toutes les cibles | repartage du post (S22) |
+| [ ] | mer. 06/01 | 19h | [P28 · Qui est derrière trophytracker ?](posts/P28_2027-01-06_qui-est-derriere-trophytracker/post.txt) | toutes les cibles | repartage du post (S22) |
 
 ## 3 · Stories du quotidien (en plus des séquences datées)
 
@@ -137,9 +136,9 @@ Les 7 stories à la une (S01 à S07) sont permanentes : voir [bio-et-a-la-une.md
 
 | Post | Quand le sortir |
 |---|---|
-| [P30 · Le road trip de la semaine](posts/P30_modele_modele-road-trip-de-la-semaine/post.txt) | Dès qu'un vrai voyageur accepte (accord écrit). |
-| [P31 · Un vrai retour](posts/P31_modele_modele-avis-reel/post.txt) | Seulement avec une vraie citation d'un utilisateur. |
-| [P32 · Nouveau : c'est en ligne](posts/P32_modele_modele-nouveau-cest-en-ligne/post.txt) | Le jour où une nouvelle fonctionnalité est réellement en ligne. |
+| [P29 · Le road trip de la semaine](posts/P29_modele_modele-road-trip-de-la-semaine/post.txt) | Dès qu'un vrai voyageur accepte (accord écrit). |
+| [P30 · Un vrai retour](posts/P30_modele_modele-avis-reel/post.txt) | Seulement avec une vraie citation d'un utilisateur. |
+| [P31 · Nouveau : c'est en ligne](posts/P31_modele_modele-nouveau-cest-en-ligne/post.txt) | Le jour où une nouvelle fonctionnalité est réellement en ligne. |
 
 ## 5 · Photos et captures
 

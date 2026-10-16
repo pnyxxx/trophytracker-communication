@@ -6,7 +6,7 @@
 |---|---|
 | [plan-de-publication.md](plan-de-publication.md) | Checklist datée, du 17/10/2026 au 06/01/2027 |
 | [bio-et-a-la-une.md](bio-et-a-la-une.md) | Nom, bio, liens, ordre et couvertures des stories à la une |
-| `posts/PNN_date_sujet/` | 32 posts (images PNG + `post.txt`) : 29 datés, et P30 à P32 modèles sans date |
+| `posts/PNN_date_sujet/` | 31 posts (images PNG + `post.txt`) : 28 datés, et P29 à P31 modèles sans date |
 | `stories/SNN_.../` | 22 séquences (images PNG + `story.txt`) : S01 à S07 à la une, S08 à S16 datées, S17 à S22 formats du quotidien |
 
 ## Dans chaque `post.txt`
