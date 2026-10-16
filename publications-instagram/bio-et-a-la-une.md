@@ -21,7 +21,7 @@ Page privée, accessible par ton lien.
 ## Liens (2 liens dans la bio)
 
 1. `https://trophytracker.fr` (titre : « Créer mon road trip »)
-2. `https://trophytracker.fr/road-trip/exemple` (titre : « Voir un exemple en direct »)
+2. `https://trophytracker.fr/road-trip/j4l-club` (titre : « Voir un exemple en direct »)
 
 ## Stories à la une, dans cet ordre
 

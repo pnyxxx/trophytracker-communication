@@ -18,8 +18,10 @@ Le code de l'appli est ailleurs (pnyxxx/trophytracker). Tout s'écrit **en fran�
   La seule interdiction est de nommer ou de viser directement le 4L Trophy (ou un autre événement précis).
 - **À éviter** car ils renvoient trop à l'ancien événement : « raid étudiant », « 4L » (même en hashtag),
   « fournitures scolaires », numéros d'équipage, et toute prospection via les hashtags d'un événement précis.
-- **Pas de Renault 4L comme sujet principal d'un visuel.** Le logo officiel (symbole + « TROPHYTRACKER »)
-  s'utilise tel quel, sans le modifier.
+- **Photos : la 4L peut apparaître** (décision de Julien, 16/10/2026) : les photos de la page j4l-club (la voiture,
+  le bivouac, les autocollants, la couverture, l'avatar) s'utilisent **telles quelles, sans rien flouter**, même si un
+  autocollant ou un numéro se lit. La règle reste pour le **texte** : ne jamais écrire « 4L Trophy » ni « 4L ».
+  Le logo officiel (symbole + « TROPHYTRACKER ») s'utilise tel quel, sans le modifier.
 - **Pas de publicité comparative nommée** : ne jamais citer Polarsteps ni un autre concurrent (ni une messagerie
   ou une appli de cartes par son nom). On parle de « ce qui change vraiment ».
 - **Ce n'est jamais un outil de sécurité, de secours ou de navigation.** Ne jamais le suggérer
@@ -29,12 +31,13 @@ Le code de l'appli est ailleurs (pnyxxx/trophytracker). Tout s'écrit **en fran�
   étapes imposées, classement entre équipages, connexion Google. Chaque road trip a **sa propre page** et crée
   **ses propres étapes**.
 - **Ton** : tutoiement, chaleureux, direct. Phrases courtes. Pas de jargon marketing.
-- **Hashtags : 4 maximum par légende**, les plus utiles pour être trouvé (#roadtrip, #raid, #moto…).
+- **Hashtags : 4 maximum par légende**, les plus utiles pour être trouvé (#roadtrip, #raid, #rallye…).
   Pas de #trophytracker sauf quand on demande aux gens de nous taguer (modèle « road trip de la semaine »).
 - **Nom** : « trophytracker » en minuscules dans les textes. Dans le logo : « TROPHYTRACKER » en capitales,
   « TROPHY » en crème et « TRACKER » en rouge.
 - **Ne rien inventer** : pas de chiffre d'utilisateurs, pas de faux avis ni de faux témoignages, pas de
-  fonctionnalité non listée ici. Léa et Sam (page d'exemple) sont **fictifs** : toujours dire « exemple ».
+  fonctionnalité non listée ici. Les captures « désert » de la page j4l-club sont une mise en scène : toujours
+  avec la pastille « road trip d'exemple », et ne jamais affirmer dans un texte qu'elles montrent un vrai direct.
   Si une info manque : demander à Julien plutôt que d'inventer.
 
 ## 2. Prix
@@ -73,14 +76,18 @@ accessible uniquement par ton lien. »
 - **Visuels QR prêts à imprimer** : autocollant carré, autocollant rond, story Instagram satellite avec la trace.
 - Espace voyageur : guide « Prêt au départ » en 8 étapes, check-list qui se termine par le bouton « Je pars ».
 - Plusieurs road trips par compte. Connexion par e-mail + mot de passe (ou code reçu par e-mail).
-- **Exemple** : https://trophytracker.fr/road-trip/exemple, « Route des Grandes Alpes », Thonon-les-Bains → Menton
-  par l'Iseran, le Galibier, l'Izoard et la Bonette (675 km), avec Léa et Sam (fictifs), rejoué en boucle.
-  Anecdote : « Doublés par un papi au Galibier ».
+- **Exemple utilisé dans les publications** (depuis le 16/10/2026) : https://trophytracker.fr/road-trip/j4l-club,
+  le vrai road trip de Julien (photos réelles : la voiture dans le sable, le bivouac, le feu de camp…). Sa trace réelle
+  ne couvre que la route en France : pour montrer le désert, `captures-j4l.mjs` met la même page en scène dans les dunes
+  (captures `D_` et `N_`). Dans les légendes, dire « la page d'exemple » (lien en bio), sans écrire le nom de l'équipage.
+  ⚠ Le texte « Carnet de route » de la vraie page cite l'événement : ne jamais le capturer.
+  (L'ancienne page https://trophytracker.fr/road-trip/exemple, Route des Grandes Alpes, n'est plus utilisée.)
 
 ## 4. Cibles
 
 - **Prioritaires (la grande majorité des publications)** : road trip en voiture · raid ou rallye (équipages,
-  sponsors, cagnotte, rapport PDF, désert, pistes, sans réseau) · à moto (cols, virages) · entre amis.
+  sponsors, cagnotte, rapport PDF, désert, pistes, sans réseau) · entre amis.
+- **Jamais de moto** (décision de Julien, 16/10/2026) : ni post, ni story, ni exemple, ni hashtag moto.
 - **Secondaires, de temps en temps** : van / camping-car, tour du monde.
 - **De l'autre côté de l'écran** : les proches (suivre sans rien installer, être rassurés sur le fait d'avoir des
   nouvelles, sans parler de sécurité) et les sponsors (visibilité).
@@ -90,7 +97,7 @@ accessible uniquement par ton lien. »
 | Dossier | Contenu |
 |---|---|
 | `publications-instagram/` | Les publications actuelles : `posts/PNN_date_sujet/` (PNG + `post.txt`), `stories/SNN_.../` (PNG + `story.txt`), `plan-de-publication.md` (calendrier + checklist), `bio-et-a-la-une.md` |
-| `outils/generateur/` | **Source des textes** (fichiers `.py`) et générateur des `post.txt`, des PNG et des captures de la page d'exemple : voir son LISEZMOI |
+| `outils/generateur/` | **Source des textes** (`posts.py`, `stories.py`) et générateur des `post.txt`, des PNG et des captures de la page j4l-club : voir son LISEZMOI |
 | `branding/` | `charte-visuelle.md` (couleurs, polices, gabarits) et `logo/` (SVG officiels) |
 | `extension-copie-dm-instagram/` | Extension Chrome pour les DM (contexte projet dans `defaults.js`, à tenir à jour) |
 | `archive/2026-10_avant-refonte/` | Tout l'ancien contenu (obsolète), avec `INVENTAIRE.md` qui dit ce qui est devenu faux |
@@ -111,9 +118,9 @@ accessible uniquement par ton lien. »
 Chercher dans tout ce qui n'est pas `archive/` ni ce fichier :
 
 ```sh
-grep -rniE "4l|trophyste|polarsteps|19 ?€|/ ?mois|early|marrakech|biarritz|raid ?étudiant|google|annuaire|parcours officiel" \
-  --exclude-dir=archive --exclude-dir=.git --exclude=CLAUDE.md .
-grep -rn "Trophy" --exclude-dir=archive --exclude-dir=.git --exclude=CLAUDE.md . | grep -vi "trophytracker"
+grep -rniIE "4l|trophyste|polarsteps|19 ?€|/ ?mois|early|marrakech|biarritz|raid ?étudiant|google|annuaire|parcours officiel" \
+  --exclude-dir=archive --exclude-dir=.git --exclude-dir=node_modules --exclude-dir=photos-j4l --exclude-dir=captures-j4l --exclude=CLAUDE.md . | grep -vi "j4l"
+grep -rnI "Trophy" --exclude-dir=archive --exclude-dir=.git --exclude-dir=node_modules --exclude=CLAUDE.md . | grep -vi "trophytracker"
 ```
 
 Seule occurrence acceptable : « jamais sur Google » (fonctionnalité de confidentialité). Dans `extension-copie-dm-instagram/defaults.js`,

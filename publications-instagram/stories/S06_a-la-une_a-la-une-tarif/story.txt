@@ -1,20 +1,18 @@
 S06 · À LA UNE « TARIF »
 
-Date   : permanente (story à la une) · à mettre en place le 18/10
-Cible  : tout le monde
-Format : 2 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
-Remarque : Remplace l'ancienne story « tarifs » (qui affichait deux prix). Un seul prix désormais. Couverture : « 15 € » papier sur fond rouge.
+Date   : permanente (story à la une) · à mettre en place le 17/10
+Cible  : toutes les cibles
+Format : 1 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
+Remarque : Un seul prix. Couverture : « 15 € » papier sur fond rouge.
 
 ━━━━━━━━ ÉCRANS ━━━━━━━━
 
-ÉCRAN 1/2
-Texte : « 15 € » / « par road trip. »
-DM Mono : « une seule fois · pas d'abonnement · gratuit pour ceux qui te suivent »
-Sticker : aucun
-Visuel : Même visuel que le post P04, en 9:16.
-
-ÉCRAN 2/2
-Texte : « Dans ta page : »
-« carte satellite et relief 3D · trace en direct · étapes et photos · météo · carnet raconté à l'IA · replay 3D · page à plusieurs · e-mails aux proches · mur d'encouragements · sponsors et cagnotte · rapport PDF · autocollants QR »
-Sticker : sticker LIEN → https://trophytracker.fr (texte du sticker : « trophytracker.fr »), posé en bas
-Visuel : Fond encre, liste en DM Mono, puces rouges.
+ÉCRAN 1/1
+Texte :
+15 €
+par road trip.
+• Payé une seule fois
+• Pas d'abonnement
+• Gratuit pour ceux qui te suivent
+Sticker : sticker LIEN → https://trophytracker.fr (texte du sticker : « trophytracker.fr »)
+Visuel : Fond papier, typographie seule.

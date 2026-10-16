@@ -45,15 +45,15 @@ Halo rouge diffus (radial, ~20 % d'opacité) en haut à droite des fonds sombres
 
 ## Images
 
-- **Captures réelles** de la page d'exemple (https://trophytracker.fr/road-trip/exemple) et de l'espace voyageur,
-  dans un cadre de téléphone simple (coins arrondis, sans marque de téléphone).
+- **Photos** : les vraies photos de la page j4l-club (`outils/generateur/photos-j4l/`) : la voiture dans le sable,
+  le bivouac au coucher du soleil, le feu de camp, le moteur, la pompe la nuit, le désert… **Telles quelles, sans
+  flouter** les autocollants ou les numéros (décision de Julien, 16/10/2026). La 4L peut apparaître.
+- **Captures réelles** de la page j4l-club (https://trophytracker.fr/road-trip/j4l-club), en carte arrondie ou dans
+  un cadre de téléphone simple (coins arrondis, sans marque), toujours avec la pastille « road trip d'exemple ».
+  Les captures « désert » sont la même page mise en scène dans les dunes (`captures-j4l.mjs`).
   Laisser visible la mention « Imagerie © Esri, Maxar, Earthstar Geographics » des cartes satellite.
-- **Photos d'ambiance** : routes de montagne, cols, pistes, désert, motos en balade, voitures de road trip
-  (modèles variés et récents de préférence), vans, groupes d'amis de dos ou au loin. Sources : tes propres photos
-  ou banques libres de droits (Unsplash, Pexels), en notant la source.
-- **Interdits** : une Renault 4L comme sujet principal ; des autocollants de numéros d'équipage ou le logo d'un
-  événement ; une personne qui tient son téléphone en conduisant ou en roulant à moto ; des visages identifiables
-  sans accord.
+- **Interdits** : le mot « 4L Trophy » ou « 4L » écrit dans un texte ; une moto ; une personne qui tient son téléphone
+  en conduisant ; des visages identifiables en gros plan sans accord ; une fausse capture de l'espace voyageur ou d'un e-mail.
 
 ## Formats
 
@@ -66,12 +66,13 @@ Stories : rien d'important dans les 250 px du haut ni les 340 px du bas (à l'é
 Pas de bandeau imitant l'interface Instagram (photo de profil, nom du compte, barre de progression).
 Les stickers (sondage, quiz, lien…) se posent dans Instagram : sur l'image, on laisse seulement l'emplacement.
 
-## Gabarits utilisés dans les `post.txt`
+## Gabarits (générateur `outils/generateur/render.py`)
 
-- **COUVERTURE** : fond satellite ou photo assombrie (dégradé encre de bas en haut), pastille DM Mono en haut,
-  grand titre Bricolage sur 2 lignes (2ᵉ ligne en rouge), petit logo en bas, `glisse →` en DM Mono si carrousel.
-- **TEXTE** : fond encre + halo rouge, titre Bricolage, 1 à 3 lignes en Atkinson, numéro rouge si liste.
-- **ÉCRAN** : fond encre, téléphone centré avec une capture réelle, titre au-dessus, légende courte en DM Mono dessous.
-- **AVANT / APRÈS** : écran coupé en deux (gauche : brut, en gris ; droite : résultat, en papier).
-- **DERNIÈRE SLIDE (CTA)** : fond encre, logo, phrase d'action, `trophytracker.fr · lien en bio`,
-  pastille `15 € par road trip · sans abonnement`.
+- **photo** : photo plein cadre, dégradé encre, titre Bricolage (2ᵉ ligne en rouge), capture flottante possible.
+- **bleed** : capture de carte en plein cadre (satellite ou relief 3D), titre par-dessus.
+- **screen** : téléphone avec une capture réelle, titre au-dessus.
+- **widget** : un bloc de la page (météo, tableau de bord, carnet, sponsors…) en carte arrondie.
+- **type** : typographie seule (chiffre géant, liste à puces ou numérotée), fond encre, papier ou rouge.
+- **chat**, **timeline**, **bingo** : formats humour et jeu.
+
+Pas de slide finale identique à chaque post : le lien en bio est dans la légende.

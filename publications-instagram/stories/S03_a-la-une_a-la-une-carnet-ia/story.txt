@@ -1,29 +1,29 @@
 S03 · À LA UNE « CARNET IA »
 
-Date   : permanente (story à la une) · à mettre en place le 18/10
-Cible  : tout le monde
-Format : 4 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
-Remarque : Nouvelle story à la une pour la fonction phare. Couverture : bouton micro rouge.
+Date   : permanente (story à la une) · à mettre en place le 17/10
+Cible  : toutes les cibles
+Format : 3 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
+Remarque : Couverture : bouton micro rouge.
 
 ━━━━━━━━ ÉCRANS ━━━━━━━━
 
-ÉCRAN 1/4
-Texte : « Le soir, tu racontes. » / « L'IA écrit. »
+ÉCRAN 1/3
+Texte :
+Le soir, tu racontes.
+L'IA écrit. (en rouge)
 Sticker : aucun
-Visuel : Fond encre, gros bouton micro rouge.
+Visuel : Photo plein cadre (page j4l-club) : feu de camp la nuit au bivouac, des silhouettes autour, dégradé encre pour le texte.
 
-ÉCRAN 2/4
-Texte : « Tu appuies sur le micro et tu racontes ta journée. Ou tu l'écris. »
+ÉCRAN 2/3
+Texte :
+1. Tu racontes au micro. (Ou tu écris.)
+2. L'IA fait la page. (Tes anecdotes, sans les « euh », avec km et altitude.)
+3. Tu relis, tu publies.
 Sticker : aucun
-Visuel : Enregistrement d'écran : appui sur le micro, onde sonore (C7 en vidéo si possible).
+Visuel : Fond papier, typographie seule.
 
-ÉCRAN 3/4
-Texte : « L'IA garde tes anecdotes, retire les hésitations, ajoute kilomètres et altitude. Sans rien inventer. »
-Sticker : aucun
-Visuel : Capture d'une page de carnet générée.
-
-ÉCRAN 4/4
-Texte : « Tu relis. Tu publies. »
-« Exemple : “L'Iseran à 4 °C” »
-Sticker : sticker LIEN → https://trophytracker.fr/road-trip/exemple (texte du sticker : « voir l'exemple »)
-Visuel : Capture du carnet de la page d'exemple.
+ÉCRAN 3/3
+Texte :
+Sans rien inventer.
+Sticker : sticker LIEN → https://trophytracker.fr/road-trip/j4l-club (texte du sticker : « voir l'exemple »)
+Visuel : Fond encre avec halo rouge, capture de la page : le carnet de route, onglet Journal : une page de carnet écrite par l'IA (texte d'exemple).

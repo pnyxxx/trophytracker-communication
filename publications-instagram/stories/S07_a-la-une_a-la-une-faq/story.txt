@@ -1,39 +1,23 @@
 S07 · À LA UNE « FAQ »
 
-Date   : permanente (story à la une) · à mettre en place le 18/10
-Cible  : tout le monde
-Format : 4 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
-Remarque : L'écran 4 (pas un outil de sécurité ni de navigation) est à garder en permanence. Les réponses de la boîte à questions (S22) viennent enrichir cette story. Couverture : « ? » rouge.
+Date   : permanente (story à la une) · à mettre en place le 17/10
+Cible  : toutes les cibles
+Format : 2 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
+Remarque : L'écran 2 (pas un outil de sécurité ni de navigation) est à garder en permanence. Les réponses de la boîte à questions (S17) viennent enrichir cette story. Couverture : « ? » rouge.
 
 ━━━━━━━━ ÉCRANS ━━━━━━━━
 
-ÉCRAN 1/4
-Texte : « Mes proches doivent installer une appli ? »
-« Non : un lien, sans compte. »
-« Il faut un boîtier GPS ? »
-« Non : ton téléphone + Traccar Client (gratuit). Un boîtier compatible marche aussi. »
+ÉCRAN 1/2
+Texte :
+? Mes proches doivent installer une appli ? (Non : un lien, sans compte.)
+? Il faut un boîtier GPS ? (Non : ton téléphone et Traccar Client (gratuit).)
+? Et sans réseau ? (Tout est gardé et envoyé dès que ça capte.)
 Sticker : aucun
-Visuel : Fond encre, questions en rouge, réponses en papier.
+Visuel : Fond papier, typographie seule.
 
-ÉCRAN 2/4
-Texte : « Et sans réseau ? »
-« Tout est gardé et envoyé dès que ça capte. »
-« Qui voit ma page ? »
-« Ceux qui ont ton lien. Jamais sur Google. Nuits floutées. »
+ÉCRAN 2/2
+Texte :
+? Ça sert à s'orienter, ou en cas de pépin ? (Non. Ce n'est ni un outil de navigation, ni un outil de sécurité. C'est fait pour partager ton voyage.)
+? Qui voit ma page ? (Ceux qui ont ton lien. Jamais sur Google.)
 Sticker : aucun
-Visuel : Idem.
-
-ÉCRAN 3/4
-Texte : « Je peux arrêter ? »
-« Tu coupes le suivi ou tu effaces ta trace quand tu veux. »
-« On peut gérer la page à plusieurs ? »
-« Oui, toute la bande. »
-Sticker : aucun
-Visuel : Idem.
-
-ÉCRAN 4/4
-Texte : « Ça sert à s'orienter ou en cas de pépin ? »
-« Non. trophytracker n'est ni un outil de navigation, ni un outil de sécurité ou de secours. C'est fait pour partager ton voyage. »
-« Une autre question ? Écris-nous. »
-Sticker : aucun
-Visuel : Idem, avec un cadre rouge.
+Visuel : Fond encre avec halo rouge, typographie seule.

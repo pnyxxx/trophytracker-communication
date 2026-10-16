@@ -4,7 +4,7 @@ Tout ce qui concerne la communication de [trophytracker](https://trophytracker.f
 Tu roules, ceux que tu invites te suivent : position, trace, photos et stats sur une page privée, accessible
 uniquement par ton lien. 15 € par road trip, sans abonnement.
 
-Exemple en direct : [trophytracker.fr/road-trip/exemple](https://trophytracker.fr/road-trip/exemple)
+Exemple : [trophytracker.fr/road-trip/j4l-club](https://trophytracker.fr/road-trip/j4l-club)
 
 ## Où en est-on ?
 

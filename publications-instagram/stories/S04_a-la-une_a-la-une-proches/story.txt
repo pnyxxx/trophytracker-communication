@@ -1,31 +1,32 @@
 S04 · À LA UNE « PROCHES »
 
-Date   : permanente (story à la une) · à mettre en place le 18/10
-Cible  : parents, grands-parents, amis
-Format : 4 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
+Date   : permanente (story à la une) · à mettre en place le 17/10
+Cible  : les proches
+Format : 3 écran(s) · 9:16, PNG 2160 × 3840, sans bandeau de l'interface Instagram
 Remarque : Story à envoyer directement aux proches. Couverture : un petit cœur papier sur fond rouge.
 
 ━━━━━━━━ ÉCRANS ━━━━━━━━
 
-ÉCRAN 1/4
-Texte : « Quelqu'un que tu aimes part en road trip ? »
-« Voilà comment le suivre. »
+ÉCRAN 1/3
+Texte :
+Quelqu'un que tu aimes
+part en road trip ?
+Voilà comment le suivre.
 Sticker : aucun
-Visuel : Photo d'une table de cuisine, téléphone avec la page ouverte (mains seulement).
+Visuel : Fond rouge trophytracker, typographie seule.
 
-ÉCRAN 2/4
-Texte : « 1. Il t'envoie son lien (ou une invitation par e-mail). »
-« 2. Tu l'ouvres. Pas de compte, pas d'appli. »
+ÉCRAN 2/3
+Texte :
+Tu ouvres son lien.
+C'est tout. (en rouge)
+Pas de compte, pas d'appli. La carte, la météo là-bas, ses photos.
 Sticker : aucun
-Visuel : Fond encre, lien en DM Mono.
+Visuel : Fond papier, capture de la page : le bloc « Météo sur place » (vraie météo à la position, sous les dunes).
 
-ÉCRAN 3/4
-Texte : « Tu vois où il en est, la météo là-bas, ses photos, son carnet du soir. »
-« Et tu peux lui laisser un message sur le mur d'encouragements. »
-Sticker : aucun
-Visuel : Enregistrement d'écran de la page d'exemple (carte → météo → carnet).
-
-ÉCRAN 4/4
-Texte : « Chaque soir, le résumé de sa journée arrive par e-mail. »
-Sticker : sticker LIEN → https://trophytracker.fr/road-trip/exemple (texte du sticker : « voir l'exemple »)
-Visuel : Capture C13.
+ÉCRAN 3/3
+Texte :
+Et chaque soir,
+le résumé par e-mail. (en rouge)
+Tu peux aussi lui laisser un mot sur son mur d'encouragements.
+Sticker : sticker LIEN → https://trophytracker.fr/road-trip/j4l-club (texte du sticker : « voir l'exemple »)
+Visuel : Fond encre avec halo rouge, typographie seule.
