@@ -260,7 +260,7 @@ P(dict(
             ("4", "« Ce lien, on le partage à nos proches et sur nos réseaux, du départ à l'arrivée. »", None),
             ("5", "« À l'arrivée, vous recevez un rapport PDF avec les statistiques de visibilité. »", None),
         ]),
-        S("photo", img="sponsor", title=["Copie. Colle.", "Envoie."]),
+        S("type", bg="red", title=["Copie. Colle.", "Envoie."], align="center"),
     ],
     legende="""Trouver des sponsors, c'est la partie la plus dure de la préparation. Voici 5 phrases à glisser dans ton prochain mail.
 
