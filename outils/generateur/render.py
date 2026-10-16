@@ -109,7 +109,7 @@ def T_type(s, story):
     accent = f'<div class="accent">{E(s["accent"])}</div>' if s.get("accent") else ""
     items = "".join(f'<div class="item"><span class="n">{E(n)}</span><div><div class="ih">{E(h)}</div>' + (f'<div class="ib">{E(b)}</div>' if b else "") + "</div></div>" for n, h, b in s.get("items", []))
     if s.get("cols"): items = f'<div class="items2">{items}</div>'
-    inner = (f'<div class="wrap type {s.get("align", "center")} fitbox">{c["pill"]}{c["kicker"]}{giant}{accent}'
+    inner = (f'<div class="wrap type {s.get("align", "center")} fitbox">{c["pill"]}{c["kicker"]}{c["num"]}{giant}{accent}'
              f'{title_html(s.get("title"), s.get("red"))}{c["sub"]}{items}{c["bullets"]}{c["mono"]}{c["reserve"]}{c["swipe"]}</div>')
     return inner, s.get("bg", "ink")
 

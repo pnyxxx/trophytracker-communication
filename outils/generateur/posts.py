@@ -47,7 +47,7 @@ P(dict(
     remarque="À épingler (2/3).",
     slides=[
         S("type", giant="5 min", accent="pour tout préparer.", sub="Zéro prise de tête. Glisse, c'est 3 étapes.", align="center"),
-        S("photo", img="piquenique", num="1", title=["Tu crées ta page."], red=[],
+        S("type", bg="red", num="1", title=["Tu crées ta page."], red=[],
           sub="Un nom, une photo, tes compagnons de route, d'où à où, quand. L'itinéraire ? Facultatif."),
         S("type", bg="paper", num="2", title=["Tu scannes", "un QR code."],
           sub="Avec l'appli gratuite Traccar Client, sur Android ou iPhone. Ou avec un boîtier GPS compatible. Ton téléphone envoie ta position."),

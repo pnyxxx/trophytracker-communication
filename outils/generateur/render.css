@@ -119,3 +119,4 @@ html,body{background:#15161A}
 .giant{white-space:nowrap}
 .credit{position:absolute;z-index:3;left:84px;bottom:74px;font-size:20px;color:#8e8a83}
 .story .credit{bottom:300px}
+.bg-red .num{color:#15161A}
